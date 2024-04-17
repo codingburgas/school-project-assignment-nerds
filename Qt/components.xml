@@ -1,0 +1,1364 @@
+<Packages>
+    <ApplicationName>Qt</ApplicationName>
+    <ApplicationVersion>1.0.0</ApplicationVersion>
+    <Package>
+        <Name>qt</Name>
+        <Title>Qt</Title>
+        <Description>Qt</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>1.0.18</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+    </Package>
+    <Package>
+        <Name>qt.license.gplv3except</Name>
+        <Title>License GPL3-EXCEPT</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>1.0.0-1</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.license.lgpl</Name>
+        <Title>Qt License LGPL</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>1.0.2</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.license.python</Name>
+        <Title>Python Software Foundation License Version 2</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>2</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.license.thirdparty</Name>
+        <Title>Qt 3rd Party Licenses</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>1.0.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>106261</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.license.win10sdk</Name>
+        <Title>MICROSOFT SOFTWARE LICENSE SDK FOR WINDOWS 10 </Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>1.0.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670</Name>
+        <Title>Qt 6.7.0</Title>
+        <Description>Qt 6.7.0 &lt;br>&lt;br>2024-03-25&lt;br>&lt;br> sha1: b76f8dbbae5177106c3de1483745d604992deb22</Description>
+        <SortingPriority>60700</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>2334</Size>
+        <Dependencies>qt.qt6.670.doc,qt.qt6.670.examples,qt.tools.qtcreator,qt.license.thirdparty,qt.license.lgpl</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons</Name>
+        <Title>Additional Libraries</Title>
+        <Description>Additional Libraries for Qt 6.7.0.&lt;br>&lt;br>Most of the additional libraries are available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.</Description>
+        <SortingPriority>3</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtimageformats</Name>
+        <Title>Qt Image Formats</Title>
+        <Description>The Qt Image Formats  provides optional support for other image file formats. The core Qt Gui library by default supports reading and writing image files of the most common file formats: PNG, JPEG, BMP, GIF and a few more.</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.670.doc.qtimageformats,qt.qt6.670.examples.qtimageformats</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtimageformats.debug_information</Name>
+        <Title>Qt Image Formats debug information</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.670.addons.qtimageformats</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtimageformats,qt.qt6.670.debug_info</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtimageformats.debug_information.win64_mingw</Name>
+        <Title>Qt Image Formats debug information for MinGW 11.2.0 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>10564719</Size>
+        <Dependencies>qt.qt6.670.addons.qtimageformats</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtimageformats,qt.qt6.670.addons.qtimageformats.debug_information,qt.qt6.670.win64_mingw</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtimageformats.debug_information.win64_msvc2019_64</Name>
+        <Title>Qt Image Formats debug information for MSVC 2019 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>21708840</Size>
+        <Dependencies>qt.qt6.670.addons.qtimageformats</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtimageformats,qt.qt6.670.addons.qtimageformats.debug_information,qt.qt6.670.win64_msvc2019_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtimageformats.win64_mingw</Name>
+        <Title>Qt Image Formats for MinGW 11.2.0 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>1197999</Size>
+        <Dependencies>qt.qt6.670.win64_mingw</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtimageformats,qt.qt6.670.win64_mingw</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtimageformats.win64_msvc2019_64</Name>
+        <Title>Qt Image Formats for MSVC 2019 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>4012798</Size>
+        <Dependencies>qt.qt6.670.win64_msvc2019_64</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtimageformats,qt.qt6.670.win64_msvc2019_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtmultimedia</Name>
+        <Title>Qt Multimedia</Title>
+        <Description>Qt Multimedia provides a rich set of QML types and C++ classes to handle multimedia content.</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.670.doc.qtmultimedia,qt.qt6.670.examples.qtmultimedia</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtmultimedia.debug_information</Name>
+        <Title>Qt Multimedia debug information</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.670.addons.qtmultimedia</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtmultimedia,qt.qt6.670.debug_info</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtmultimedia.debug_information.win64_mingw</Name>
+        <Title>Qt Multimedia debug information for MinGW 11.2.0 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>192229542</Size>
+        <Dependencies>qt.qt6.670.addons.qtmultimedia</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtmultimedia,qt.qt6.670.addons.qtmultimedia.debug_information,qt.qt6.670.win64_mingw</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtmultimedia.debug_information.win64_msvc2019_64</Name>
+        <Title>Qt Multimedia debug information for MSVC 2019 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>175194152</Size>
+        <Dependencies>qt.qt6.670.addons.qtmultimedia</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtmultimedia,qt.qt6.670.addons.qtmultimedia.debug_information,qt.qt6.670.win64_msvc2019_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtmultimedia.win64_mingw</Name>
+        <Title>Qt Multimedia for MinGW 11.2.0 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>104050420</Size>
+        <Dependencies>qt.qt6.670.win64_mingw</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtmultimedia,qt.qt6.670.win64_mingw</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtmultimedia.win64_msvc2019_64</Name>
+        <Title>Qt Multimedia for MSVC 2019 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>196898671</Size>
+        <Dependencies>qt.qt6.670.win64_msvc2019_64</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtmultimedia,qt.qt6.670.win64_msvc2019_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtpositioning</Name>
+        <Title>Qt Positioning</Title>
+        <Description>The Qt Positioning API provides positioning information via QML and C++ interfaces.</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.670.doc.qtpositioning,qt.qt6.670.examples.qtpositioning</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtpositioning.debug_information</Name>
+        <Title>Qt Positioning debug information</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.670.addons.qtpositioning</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtpositioning,qt.qt6.670.debug_info</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtpositioning.debug_information.win64_mingw</Name>
+        <Title>Qt Positioning debug information for MinGW 11.2.0 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>43550400</Size>
+        <Dependencies>qt.qt6.670.addons.qtpositioning</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtpositioning,qt.qt6.670.addons.qtpositioning.debug_information,qt.qt6.670.win64_mingw</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtpositioning.debug_information.win64_msvc2019_64</Name>
+        <Title>Qt Positioning debug information for MSVC 2019 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>63488040</Size>
+        <Dependencies>qt.qt6.670.addons.qtpositioning</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtpositioning,qt.qt6.670.addons.qtpositioning.debug_information,qt.qt6.670.win64_msvc2019_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtpositioning.win64_mingw</Name>
+        <Title>Qt Positioning for MinGW 11.2.0 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>2457902</Size>
+        <Dependencies>qt.qt6.670.win64_mingw</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtpositioning,qt.qt6.670.win64_mingw</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtpositioning.win64_msvc2019_64</Name>
+        <Title>Qt Positioning for MSVC 2019 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>7604381</Size>
+        <Dependencies>qt.qt6.670.win64_msvc2019_64</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtpositioning,qt.qt6.670.win64_msvc2019_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtvirtualkeyboard</Name>
+        <Title>Qt Virtual Keyboard</Title>
+        <Description>The Qt Virtual Keyboard is a Qt Quick virtual keyboard that you can plug in to your platform or application. You can extend it with your ownlayouts and styles.&lt;br>&lt;br>This component is available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.670.doc.qtvirtualkeyboard,qt.qt6.670.examples.qtvirtualkeyboard</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtvirtualkeyboard.debug_information</Name>
+        <Title>Qt Virtual Keyboard debug information</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.670.addons.qtvirtualkeyboard</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtvirtualkeyboard,qt.qt6.670.debug_info</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtvirtualkeyboard.debug_information.win64_mingw</Name>
+        <Title>Qt Virtual Keyboard debug information for MinGW 11.2.0 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>85381964</Size>
+        <Dependencies>qt.qt6.670.addons.qtvirtualkeyboard</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtvirtualkeyboard,qt.qt6.670.addons.qtvirtualkeyboard.debug_information,qt.qt6.670.win64_mingw</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtvirtualkeyboard.debug_information.win64_msvc2019_64</Name>
+        <Title>Qt Virtual Keyboard debug information for MSVC 2019 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>91537448</Size>
+        <Dependencies>qt.qt6.670.addons.qtvirtualkeyboard</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtvirtualkeyboard,qt.qt6.670.addons.qtvirtualkeyboard.debug_information,qt.qt6.670.win64_msvc2019_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtvirtualkeyboard.win64_mingw</Name>
+        <Title>Qt Virtual Keyboard for MinGW 11.2.0 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>6487205</Size>
+        <Dependencies>qt.qt6.670.win64_mingw</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtvirtualkeyboard,qt.qt6.670.win64_mingw</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtvirtualkeyboard.win64_msvc2019_64</Name>
+        <Title>Qt Virtual Keyboard for MSVC 2019 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>15821749</Size>
+        <Dependencies>qt.qt6.670.win64_msvc2019_64</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtvirtualkeyboard,qt.qt6.670.win64_msvc2019_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebchannel</Name>
+        <Title>Qt WebChannel</Title>
+        <Description>Qt WebChannel enables peer-to-peer communication between a server (QML/C++ application) and a client (HTML/JavaScript or QML application). It is supported out of the box by Qt WebEngine. In addition it can work on all browsers that support WebSockets, enabling Qt WebChannel clients to run in any JavaScript environment (including QML). This requires the implementation of a custom transport based on Qt WebSockets.</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.670.doc.qtwebchannel,qt.qt6.670.examples.qtwebchannel</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebchannel.debug_information</Name>
+        <Title>Qt WebChannel debug information</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.670.addons.qtwebchannel</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtwebchannel,qt.qt6.670.debug_info</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebchannel.debug_information.win64_mingw</Name>
+        <Title>Qt WebChannel debug information for MinGW 11.2.0 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>9028818</Size>
+        <Dependencies>qt.qt6.670.addons.qtwebchannel</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtwebchannel,qt.qt6.670.addons.qtwebchannel.debug_information,qt.qt6.670.win64_mingw</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebchannel.debug_information.win64_msvc2019_64</Name>
+        <Title>Qt WebChannel debug information for MSVC 2019 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>16998440</Size>
+        <Dependencies>qt.qt6.670.addons.qtwebchannel</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtwebchannel,qt.qt6.670.addons.qtwebchannel.debug_information,qt.qt6.670.win64_msvc2019_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebchannel.win64_mingw</Name>
+        <Title>Qt WebChannel for MinGW 11.2.0 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>586896</Size>
+        <Dependencies>qt.qt6.670.win64_mingw</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtwebchannel,qt.qt6.670.win64_mingw</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebchannel.win64_msvc2019_64</Name>
+        <Title>Qt WebChannel for MSVC 2019 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>1793350</Size>
+        <Dependencies>qt.qt6.670.win64_msvc2019_64</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtwebchannel,qt.qt6.670.win64_msvc2019_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebengine</Name>
+        <Title>Qt WebEngine</Title>
+        <Description>The Qt WebEngine module integrates the fast moving Chromium web platform into Qt and provides a convenient API for both Qt Widgets and Qt Quick to utilize Chromium's web capabilities. Qt WebEngine takes full benefit of the whole Qt graphics stack integration allowing seamless mix and overlay of native Qt controls with web content and OpenGL shaders.&lt;br>&lt;br>On Windows, the module is only available under MSVC2019.&lt;br>&lt;br>This component contains Third-Party Content licensed under LGPLv2.1. Please note the additional requirements of the license.</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.670.doc.qtwebengine,qt.qt6.670.examples.qtwebengine,qt.qt6.670.addons.qtwebchannel,qt.qt6.670.addons.qtpositioning</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebengine.debug_information</Name>
+        <Title>Qt WebEngine debug information</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.670.addons.qtwebengine</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtwebengine,qt.qt6.670.debug_info</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebengine.debug_information.win64_msvc2019_64</Name>
+        <Title>Qt WebEngine debug information for MSVC 2019 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>6580486184</Size>
+        <Dependencies>qt.qt6.670.addons.qtwebengine</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtwebengine,qt.qt6.670.addons.qtwebengine.debug_information,qt.qt6.670.win64_msvc2019_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebengine.win64_msvc2019_64</Name>
+        <Title>Qt WebEngine for MSVC 2019 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>891258332</Size>
+        <Dependencies>qt.qt6.670.win64_msvc2019_64</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtwebengine,qt.qt6.670.win64_msvc2019_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebsockets</Name>
+        <Title>Qt WebSockets</Title>
+        <Description>WebSocket is a web-based protocol designed to enable two-way communication between a client application and a remote host. It enables the two entities to send data back and forth if the initial handshake succeeds. WebSocket is the solution for applications that struggle to get real-time data feeds with less network latency and minimum data exchange.</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.670.doc.qtwebsockets,qt.qt6.670.examples.qtwebsockets</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebsockets.debug_information</Name>
+        <Title>Qt WebSockets debug information</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.670.addons.qtwebsockets</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtwebsockets,qt.qt6.670.debug_info</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebsockets.debug_information.win64_mingw</Name>
+        <Title>Qt WebSockets debug information for MinGW 11.2.0 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>13045522</Size>
+        <Dependencies>qt.qt6.670.addons.qtwebsockets</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtwebsockets,qt.qt6.670.addons.qtwebsockets.debug_information,qt.qt6.670.win64_mingw</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebsockets.debug_information.win64_msvc2019_64</Name>
+        <Title>Qt WebSockets debug information for MSVC 2019 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>14745640</Size>
+        <Dependencies>qt.qt6.670.addons.qtwebsockets</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtwebsockets,qt.qt6.670.addons.qtwebsockets.debug_information,qt.qt6.670.win64_msvc2019_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebsockets.win64_mingw</Name>
+        <Title>Qt WebSockets for MinGW 11.2.0 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>530018</Size>
+        <Dependencies>qt.qt6.670.win64_mingw</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtwebsockets,qt.qt6.670.win64_mingw</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebsockets.win64_msvc2019_64</Name>
+        <Title>Qt WebSockets for MSVC 2019 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>1433175</Size>
+        <Dependencies>qt.qt6.670.win64_msvc2019_64</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtwebsockets,qt.qt6.670.win64_msvc2019_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebview</Name>
+        <Title>Qt WebView</Title>
+        <Description>Qt WebView provides a way to display web content in a QML application without necessarily including a full web browser stack by using native APIs where it makes sense. This is useful on mobile platforms such as Android, iOS, and UWP (Universal Windows Platform); especially on iOS, where policy dictates that all web content is displayed using the operating system's web view. On Windows, Linux, and macOS, Qt WebView depends on the Qt WebEngine module to render content.</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.670.doc.qtwebview,qt.qt6.670.examples.qtwebview,qt.qt6.670.addons.qtwebengine</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebview.debug_information</Name>
+        <Title>Qt WebView debug information</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.670.addons.qtwebview</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtwebview,qt.qt6.670.debug_info</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebview.debug_information.win64_mingw</Name>
+        <Title>Qt WebView debug information for MinGW 11.2.0 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>8717770</Size>
+        <Dependencies>qt.qt6.670.addons.qtwebview</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtwebview,qt.qt6.670.addons.qtwebview.debug_information,qt.qt6.670.win64_mingw</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebview.debug_information.win64_msvc2019_64</Name>
+        <Title>Qt WebView debug information for MSVC 2019 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>24682536</Size>
+        <Dependencies>qt.qt6.670.addons.qtwebview</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtwebview,qt.qt6.670.addons.qtwebview.debug_information,qt.qt6.670.win64_msvc2019_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebview.win64_mingw</Name>
+        <Title>Qt WebView for MinGW 11.2.0 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>566873</Size>
+        <Dependencies>qt.qt6.670.win64_mingw</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtwebview,qt.qt6.670.win64_mingw</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.addons.qtwebview.win64_msvc2019_64</Name>
+        <Title>Qt WebView for MSVC 2019 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>1430291</Size>
+        <Dependencies>qt.qt6.670.win64_msvc2019_64</Dependencies>
+        <AutoDependOn>qt.qt6.670.addons.qtwebview,qt.qt6.670.win64_msvc2019_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.debug_info</Name>
+        <Title>Qt Debug Information Files</Title>
+        <Description>Qt 6.7.0 debug information files. Requires selection of target binary like gcc or MSVC.</Description>
+        <SortingPriority>2</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.debug_info.win64_mingw</Name>
+        <Title>Desktop MinGW 11.2.0 64-bit debug information files</Title>
+        <Description>Qt 6.7.0 debug information files for Desktop MinGW 8.1.0 64-bit</Description>
+        <SortingPriority>2</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>5534822878</Size>
+        <Dependencies>qt.qt6.670.win64_mingw</Dependencies>
+        <AutoDependOn>qt.qt6.670.debug_info,qt.qt6.670.win64_mingw</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.debug_info.win64_msvc2019_64</Name>
+        <Title>Desktop MSVC 2019 64-bit debug information files</Title>
+        <Description>Qt 6.7.0 debug information files for Desktop MSVC 2019 64-bit</Description>
+        <SortingPriority>2</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>2886869152</Size>
+        <Dependencies>qt.qt6.670.win64_msvc2019_64</Dependencies>
+        <AutoDependOn>qt.qt6.670.debug_info,qt.qt6.670.win64_msvc2019_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.doc</Name>
+        <Title>Qt 6.7.0 Documentation</Title>
+        <Description>Qt 6.7.0 documentation</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>222330017</Size>
+        <Dependencies>qt.tools</Dependencies>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.doc.qtimageformats</Name>
+        <Title>Documentation for Qt 6.7.0 Imageformats</Title>
+        <Description>Documentation for Qt 6.7.0 Imageformats</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>142192</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.doc.qtmultimedia</Name>
+        <Title>Documentation for Qt Multimedia</Title>
+        <Description>Documentation for Qt Multimedia</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>11974662</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.doc.qtpositioning</Name>
+        <Title>Documentation for Qt 6.7.0 GPLv3 components (QtPositioning)</Title>
+        <Description>Documentation for Qt 6.7.0 GPLv3 components (QtPositioning)</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>2455350</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.doc.qtquicktimeline</Name>
+        <Title>Documentation for Qt Quick Timeline</Title>
+        <Description>Documentation for Qt Quick Timeline</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>384781</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.doc.qtvirtualkeyboard</Name>
+        <Title>Documentation for Qt 6.7.0 GPLv3 components (QtVirtualKeyboard)</Title>
+        <Description>Documentation for Qt 6.7.0 GPLv3 components (QtVirtualKeyboard)</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>4402984</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.doc.qtwebchannel</Name>
+        <Title>Documentation for Qt 6.7.0 WebChannel</Title>
+        <Description>Documentation for Qt 6.7.0 WebChannel</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>435361</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.doc.qtwebengine</Name>
+        <Title>Documentation for QtWebEngine</Title>
+        <Description>Documentation for QtWebEngine</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>6625011</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.doc.qtwebsockets</Name>
+        <Title>Documentation for Qt 6.7.0 WebSockets</Title>
+        <Description>Documentation for Qt 6.7.0 WebSockets</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>1309554</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.doc.qtwebview</Name>
+        <Title>Documentation for Qt 6.7.0 WebView</Title>
+        <Description>Documentation for Qt 6.7.0 WebView</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>317341</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.examples</Name>
+        <Title>Qt 6.7.0 Examples</Title>
+        <Description>Qt 6.7.0 Examples</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>42108250</Size>
+        <Dependencies>qt.tools</Dependencies>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.examples.qtimageformats</Name>
+        <Title>Examples for Qt 6.7.0 Image Formats</Title>
+        <Description>Examples for Qt 6.7.0 Image Formats</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>40</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.examples.qtmultimedia</Name>
+        <Title>Examples for Qt Multimedia</Title>
+        <Description>Examples for Qt Multimedia</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>3780821</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.examples.qtpositioning</Name>
+        <Title>Examples for Qt 6.7.0 GPLv3 components (QtPositioning)</Title>
+        <Description>Examples for Qt 6.7.0 GPLv3 components (QtPositioning)</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>619175</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.examples.qtquicktimeline</Name>
+        <Title>Examples for Qt Quick Timeline</Title>
+        <Description>Examples for Qt Quick Timeline</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.examples.qtvirtualkeyboard</Name>
+        <Title>Examples for Qt 6.7.0 GPLv3 components (QtVirtualKeyboard)</Title>
+        <Description>Examples for Qt 6.7.0 GPLv3 components (QtVirtualKeyboard)</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>31683</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.examples.qtwebchannel</Name>
+        <Title>Examples for Qt 6.7.0 WebChannel</Title>
+        <Description>Examples for Qt 6.7.0 WebChannel</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>122419</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.examples.qtwebengine</Name>
+        <Title>Examples for QtWebEngine</Title>
+        <Description>Examples for QtWebEngine</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>1840994</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.examples.qtwebsockets</Name>
+        <Title>Examples for Qt 6.7.0 WebSockets</Title>
+        <Description>Examples for Qt 6.7.0 WebSockets</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>296238</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.examples.qtwebview</Name>
+        <Title>Examples for Qt 6.7.0 WebView</Title>
+        <Description>Examples for Qt 6.7.0 WebView</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>62059</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.qtquicktimeline</Name>
+        <Title>Qt Quick Timeline</Title>
+        <Description>The Qt Quick Timeline module enables keyframe-based animations and parameterization. It takes a tooling-friendly approach, and is therefore directly supported by Qt Design Studio and Qt Quick Designer that contain a timeline editor for creating keyframe based animations.&lt;br>&lt;br>This component is available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.670.doc.qtquicktimeline,qt.qt6.670.examples.qtquicktimeline</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.qtquicktimeline.debug_information</Name>
+        <Title>Qt Quick Timeline debug information</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.670.qtquicktimeline</Dependencies>
+        <AutoDependOn>qt.qt6.670.qtquicktimeline,qt.qt6.670.debug_info</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.qtquicktimeline.debug_information.win64_mingw</Name>
+        <Title>Qt Quick Timeline debug information for MinGW 11.2.0 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>22461728</Size>
+        <Dependencies>qt.qt6.670.qtquicktimeline</Dependencies>
+        <AutoDependOn>qt.qt6.670.qtquicktimeline,qt.qt6.670.qtquicktimeline.debug_information,qt.qt6.670.win64_mingw</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.qtquicktimeline.debug_information.win64_msvc2019_64</Name>
+        <Title>Qt Quick Timeline debug information for MSVC 2019 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>34906152</Size>
+        <Dependencies>qt.qt6.670.qtquicktimeline</Dependencies>
+        <AutoDependOn>qt.qt6.670.qtquicktimeline,qt.qt6.670.qtquicktimeline.debug_information,qt.qt6.670.win64_msvc2019_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.qtquicktimeline.win64_mingw</Name>
+        <Title>Qt Quick Timeline for MinGW 11.2.0 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>548285</Size>
+        <Dependencies>qt.qt6.670.win64_mingw</Dependencies>
+        <AutoDependOn>qt.qt6.670.qtquicktimeline,qt.qt6.670.win64_mingw</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.qtquicktimeline.win64_msvc2019_64</Name>
+        <Title>Qt Quick Timeline for MSVC 2019 64-bit</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>1497831</Size>
+        <Dependencies>qt.qt6.670.win64_msvc2019_64</Dependencies>
+        <AutoDependOn>qt.qt6.670.qtquicktimeline,qt.qt6.670.win64_msvc2019_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.win64_mingw</Name>
+        <Title>MinGW 11.2.0 64-bit</Title>
+        <Description>Qt 6.7.0 Prebuilt Components for MinGW 11.2.0 64-bit</Description>
+        <SortingPriority>590</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>1104918595</Size>
+        <Dependencies>qt.tools.qtcreator,qt.tools.win64_mingw900,qt.qt6.670.doc,qt.qt6.670.examples</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.670.win64_msvc2019_64</Name>
+        <Title>MSVC 2019 64-bit</Title>
+        <Description>Qt 6.7.0 Prebuilt Components for MSVC 2019 64-bit</Description>
+        <SortingPriority>590</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.7.0-0-202403252230</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>1749491803</Size>
+        <Dependencies>qt.tools.qtcreator,qt.qt6.670.doc,qt.qt6.670.examples</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools</Name>
+        <Title>Developer and Designer Tools</Title>
+        <Description>IDE, Internationalization, Design and other tools to accelerate development.</Description>
+        <SortingPriority>40</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>1.2.0-0-202301110548</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.license.thirdparty,qt.license.lgpl</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.maintenance</Name>
+        <Title>Qt Maintenance Tool</Title>
+        <Description>The tool to maintain and update the existing installation, located in the root directory of the installation.</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>4.7.0-0-202402190825</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>49438301</Size>
+        <ForcedInstallation>true</ForcedInstallation>
+    </Package>
+    <Package>
+        <Name>qt.tools.qtcreator</Name>
+        <Title>SDKTool</Title>
+        <Description>SDKTool</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>13.0.0-0-202403271022</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>3754536</Size>
+        <Dependencies>qt.tools.vcredist_msvc2019_x86,qt.tools.vcredist,qt.tools.vcredist_msvc2019_x64,qt.tools.vcredist_64</Dependencies>
+        <ForcedInstallation>true</ForcedInstallation>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.tools.qtcreator_gui</Name>
+        <Title>Qt Creator 13.0.0</Title>
+        <Description>IDE for Qt application development</Description>
+        <SortingPriority>1000</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>13.0.0-0-202404021438</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>554959709</Size>
+        <Dependencies>qt.tools.qtcreator->=9.0.1,qt.tools.vcredist_msvc2019_x86,qt.tools.vcredist,qt.tools.vcredist_msvc2019_x64,qt.tools.vcredist_64</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.qtcreatorcdbext</Name>
+        <Title>Qt Creator 13.0.0 CDB Debugger Support</Title>
+        <Description>CDB Debugger support for Qt Creator</Description>
+        <SortingPriority>999</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>13.0.0-0-202404021438</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>111932829</Size>
+        <Dependencies>qt.tools.qtcreator_gui,qt.license.python</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.qtdesignstudio</Name>
+        <Title>Qt Design Studio 4.4.0</Title>
+        <Description>Qt Design Studio is a UI design and development environment for creating animated UIs and previewing them on the desktop or on Android and embedded Linux devices. It provides you with tools for accomplishing your tasks throughout the whole process, from design to production.</Description>
+        <SortingPriority>100</SortingPriority>
+        <TreeName moveChildren="true">qtdesignstudio.release</TreeName>
+        <Version>4.4.0-0-202402190721</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>2247374162</Size>
+        <Dependencies>qt.tools.vcredist_msvc2019_x64,qt.license.gplv3except</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.vcredist</Name>
+        <Title>VCRedist for MSVC 32bit</Title>
+        <Description>Needed by all included Qt applications.</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>2022-06-07</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>8990592</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.vcredist_64</Name>
+        <Title>VCRedist for MSVC 64bit</Title>
+        <Description>Needed by all included Qt applications.</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>2022-06-07</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>10274176</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.vcredist_msvc2019_x64</Name>
+        <Title>VCRedist for MSVC 2019 64bit</Title>
+        <Description>Visual C++ Redistributable Packages for Visual Studio 2019 64 bit</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>2022-06-07</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>15060536</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.vcredist_msvc2019_x86</Name>
+        <Title>VCRedist for MSVC 2019 32bit</Title>
+        <Description>Visual C++ Redistributable Packages for Visual Studio 2019 32 bit</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>2022-06-07</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>14364480</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.win64_mingw900</Name>
+        <Title>MinGW 11.2.0 64-bit</Title>
+        <Description>MinGW-builds 11.2.0 64-bit toolchain with gcc 11.2.0</Description>
+        <SortingPriority>900</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>9.0.0-1-202203221220</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>599450130</Size>
+        <Dependencies>qt.tools.qtcreator</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.windows_kits_debuggers</Name>
+        <Title>Debugging Tools for Windows</Title>
+        <Description>Debugger and Tools Redistributable Packages for MSVC binaries</Description>
+        <SortingPriority>998</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>2024-02-26-0-202404021438</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>71794768</Size>
+        <Dependencies>qt.tools.qtcreator_gui,qt.license.win10sdk</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qtdesignstudio</Name>
+        <Title>Qt Design Studio</Title>
+        <Description>Qt Design Studio</Description>
+        <SortingPriority>70</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>1.0.0-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-04-13</InstallDate>
+        <Size>0</Size>
+    </Package>
+</Packages>
