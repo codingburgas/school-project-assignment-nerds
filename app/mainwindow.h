@@ -34,9 +34,9 @@ private:
     Ui::MainWindow *ui;
     bool user = false;
     QUrl chats[6] = {
-        QUrl(QStringLiteral("https://mediafiles.botpress.cloud/ca95ed6c-31b9-4c20-81a5-743f7a52e6f0/webchat/bot.html"), QUrl::ParsingMode::TolerantMode), //math - 1
-        QUrl(QStringLiteral("https://mediafiles.botpress.cloud/1b465f56-2653-4b76-a142-b5e21ff71df0/webchat/bot.html"), QUrl::ParsingMode::TolerantMode), //physics - 2
-        QUrl(QStringLiteral("https://mediafiles.botpress.cloud/e3e751ab-253b-419b-8d89-dd875bd5580c/webchat/bot.html"), QUrl::ParsingMode::TolerantMode), //chemistry - 3
+        QUrl(QStringLiteral("https://mediafiles.botpress.cloud/4005a4a3-6390-491c-a049-c191fda77a77/webchat/bot.html"), QUrl::ParsingMode::TolerantMode), //math - 1
+        QUrl(QStringLiteral("https://mediafiles.botpress.cloud/80fe8867-0703-49f0-818f-3e73e5894f59/webchat/bot.html"), QUrl::ParsingMode::TolerantMode), //physics - 2
+        QUrl(QStringLiteral("https://mediafiles.botpress.cloud/adeac89f-7848-4982-94a0-55e5a960de4c/webchat/bot.html"), QUrl::ParsingMode::TolerantMode), //chemistry - 3
         QUrl(QStringLiteral("https://mediafiles.botpress.cloud/dada2986-70c1-4bdd-b4c6-2fba7a1c8414/webchat/bot.html"), QUrl::ParsingMode::TolerantMode), //biology - 4
         QUrl(QStringLiteral("https://mediafiles.botpress.cloud/db0bd218-6cc6-410a-b60e-07cfb9512d6a/webchat/bot.html"), QUrl::ParsingMode::TolerantMode), //geography - 5
         QUrl(QStringLiteral("https://mediafiles.botpress.cloud/e4b2e14e-9feb-4b95-8992-e59f630b8104/webchat/bot.html"), QUrl::ParsingMode::TolerantMode)  //history - 6
