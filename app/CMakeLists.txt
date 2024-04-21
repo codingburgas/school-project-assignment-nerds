@@ -57,7 +57,6 @@ qt_add_executable(MainWindow
     MANUAL_FINALIZATION
     ${PROJECT_SOURCES}
     images.qrc
-    math.txt
 )
     
 # Define target properties for Android with Qt 6 as:

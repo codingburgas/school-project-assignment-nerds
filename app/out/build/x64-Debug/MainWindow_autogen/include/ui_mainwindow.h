@@ -32,6 +32,12 @@ class Ui_MainWindow
 public:
     QWidget *centralwidget;
     QHBoxLayout *horizontalLayout;
+    QWidget *sidebar;
+    QVBoxLayout *verticalLayout_7;
+    QPushButton *back_from_chat;
+    QPushButton *login_sidebar;
+    QPushButton *signup_sidebar;
+    QSpacerItem *verticalSpacer_5;
     QSpacerItem *horizontalSpacer;
     QStackedWidget *stackedWidget;
     QWidget *login;
@@ -105,8 +111,42 @@ public:
         MainWindow->setWindowIcon(icon);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
+        centralwidget->setStyleSheet(QString::fromUtf8(""));
         horizontalLayout = new QHBoxLayout(centralwidget);
         horizontalLayout->setObjectName("horizontalLayout");
+        sidebar = new QWidget(centralwidget);
+        sidebar->setObjectName("sidebar");
+        sidebar->setStyleSheet(QString::fromUtf8("background-color: rgb(43, 43, 43);"));
+        verticalLayout_7 = new QVBoxLayout(sidebar);
+        verticalLayout_7->setObjectName("verticalLayout_7");
+        back_from_chat = new QPushButton(sidebar);
+        back_from_chat->setObjectName("back_from_chat");
+        back_from_chat->setStyleSheet(QString::fromUtf8("font: italic 12pt \"Segoe UI\";\n"
+"color: rgb(170, 85, 127);"));
+
+        verticalLayout_7->addWidget(back_from_chat, 0, Qt::AlignTop);
+
+        login_sidebar = new QPushButton(sidebar);
+        login_sidebar->setObjectName("login_sidebar");
+        login_sidebar->setStyleSheet(QString::fromUtf8("font: italic 12pt \"Segoe UI\";\n"
+"color: rgb(170, 85, 127);"));
+
+        verticalLayout_7->addWidget(login_sidebar);
+
+        signup_sidebar = new QPushButton(sidebar);
+        signup_sidebar->setObjectName("signup_sidebar");
+        signup_sidebar->setStyleSheet(QString::fromUtf8("font: italic 12pt \"Segoe UI\";\n"
+"color: rgb(170, 85, 127);"));
+
+        verticalLayout_7->addWidget(signup_sidebar);
+
+        verticalSpacer_5 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
+
+        verticalLayout_7->addItem(verticalSpacer_5);
+
+
+        horizontalLayout->addWidget(sidebar, 0, Qt::AlignLeft);
+
         horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
 
         horizontalLayout->addItem(horizontalSpacer);
@@ -114,6 +154,7 @@ public:
         stackedWidget = new QStackedWidget(centralwidget);
         stackedWidget->setObjectName("stackedWidget");
         stackedWidget->setSizeIncrement(QSize(1, 1));
+        stackedWidget->setStyleSheet(QString::fromUtf8(""));
         login = new QWidget();
         login->setObjectName("login");
         QSizePolicy sizePolicy(QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Preferred);
@@ -125,6 +166,7 @@ public:
         verticalLayout_3->setObjectName("verticalLayout_3");
         label = new QLabel(login);
         label->setObjectName("label");
+        label->setStyleSheet(QString::fromUtf8("background-color: rgba(43, 43, 43, 0);"));
         label->setPixmap(QPixmap(QString::fromUtf8(":/images/images/logo.png")));
         label->setScaledContents(true);
 
@@ -133,7 +175,8 @@ public:
         label_2 = new QLabel(login);
         label_2->setObjectName("label_2");
         label_2->setStyleSheet(QString::fromUtf8("font: italic 20pt \"Rockwell\";\n"
-"color: rgb(170, 0, 127);"));
+"color: rgb(170, 0, 127);\n"
+"background-color: rgba(43, 43, 43, 0);"));
 
         verticalLayout_3->addWidget(label_2, 0, Qt::AlignHCenter);
 
@@ -148,8 +191,9 @@ public:
         sizePolicy1.setVerticalStretch(0);
         sizePolicy1.setHeightForWidth(email_login->sizePolicy().hasHeightForWidth());
         email_login->setSizePolicy(sizePolicy1);
-        email_login->setMinimumSize(QSize(400, 0));
+        email_login->setMinimumSize(QSize(500, 0));
         email_login->setMaximumSize(QSize(550, 16777215));
+        email_login->setStyleSheet(QString::fromUtf8("background-color: rgb(43, 43, 43);"));
 
         verticalLayout->addWidget(email_login, 0, Qt::AlignHCenter);
 
@@ -157,8 +201,10 @@ public:
         password_login->setObjectName("password_login");
         sizePolicy1.setHeightForWidth(password_login->sizePolicy().hasHeightForWidth());
         password_login->setSizePolicy(sizePolicy1);
-        password_login->setMinimumSize(QSize(400, 0));
+        password_login->setMinimumSize(QSize(500, 0));
         password_login->setMaximumSize(QSize(550, 16777215));
+        password_login->setStyleSheet(QString::fromUtf8("background-color: rgb(43, 43, 43);\n"
+""));
         password_login->setInputMethodHints(Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData);
         password_login->setEchoMode(QLineEdit::Password);
 
@@ -184,7 +230,8 @@ public:
         button_to_signup = new QPushButton(widget_3);
         button_to_signup->setObjectName("button_to_signup");
         button_to_signup->setStyleSheet(QString::fromUtf8("font: italic 6pt \"Segoe UI\";\n"
-"color: rgb(170, 85, 127);"));
+"color: rgb(170, 85, 127);\n"
+"background-color: rgb(43, 43, 43);"));
 
         horizontalLayout_2->addWidget(button_to_signup);
 
@@ -196,7 +243,8 @@ public:
         sizePolicy2.setHeightForWidth(button_login->sizePolicy().hasHeightForWidth());
         button_login->setSizePolicy(sizePolicy2);
         button_login->setStyleSheet(QString::fromUtf8("font: italic 12pt \"Segoe UI\";\n"
-"color: rgb(170, 85, 127);"));
+"color: rgb(170, 85, 127);\n"
+"background-color: rgb(43, 43, 43);"));
 
         verticalLayout->addWidget(button_login, 0, Qt::AlignHCenter);
 
@@ -210,6 +258,7 @@ public:
         verticalLayout_5->setObjectName("verticalLayout_5");
         label_4 = new QLabel(signup);
         label_4->setObjectName("label_4");
+        label_4->setStyleSheet(QString::fromUtf8("background-color: rgba(43, 43, 43, 0);"));
         label_4->setPixmap(QPixmap(QString::fromUtf8(":/images/images/logo.png")));
         label_4->setScaledContents(true);
 
@@ -218,7 +267,8 @@ public:
         label_3 = new QLabel(signup);
         label_3->setObjectName("label_3");
         label_3->setStyleSheet(QString::fromUtf8("font: italic 20pt \"Rockwell\";\n"
-"color: rgb(170, 0, 127);"));
+"color: rgb(170, 0, 127);\n"
+"background-color: rgba(43, 43, 43,0);"));
 
         verticalLayout_5->addWidget(label_3, 0, Qt::AlignHCenter);
 
@@ -228,27 +278,34 @@ public:
         verticalLayout_2->setObjectName("verticalLayout_2");
         email_signup = new QLineEdit(widget_2);
         email_signup->setObjectName("email_signup");
+        email_signup->setMinimumSize(QSize(500, 0));
+        email_signup->setStyleSheet(QString::fromUtf8("background-color: rgb(43, 43, 43);"));
 
-        verticalLayout_2->addWidget(email_signup, 0, Qt::AlignTop);
+        verticalLayout_2->addWidget(email_signup, 0, Qt::AlignHCenter|Qt::AlignTop);
 
         password_signup = new QLineEdit(widget_2);
         password_signup->setObjectName("password_signup");
+        password_signup->setMinimumSize(QSize(500, 0));
+        password_signup->setStyleSheet(QString::fromUtf8("background-color: rgb(43, 43, 43);"));
         password_signup->setInputMethodHints(Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData);
         password_signup->setEchoMode(QLineEdit::Password);
 
-        verticalLayout_2->addWidget(password_signup, 0, Qt::AlignTop);
+        verticalLayout_2->addWidget(password_signup, 0, Qt::AlignHCenter|Qt::AlignTop);
 
         passwordconf_signup = new QLineEdit(widget_2);
         passwordconf_signup->setObjectName("passwordconf_signup");
+        passwordconf_signup->setMinimumSize(QSize(500, 0));
+        passwordconf_signup->setStyleSheet(QString::fromUtf8("background-color: rgb(43, 43, 43);"));
 
-        verticalLayout_2->addWidget(passwordconf_signup, 0, Qt::AlignTop);
+        verticalLayout_2->addWidget(passwordconf_signup, 0, Qt::AlignHCenter|Qt::AlignTop);
 
         button_signup = new QPushButton(widget_2);
         button_signup->setObjectName("button_signup");
         sizePolicy2.setHeightForWidth(button_signup->sizePolicy().hasHeightForWidth());
         button_signup->setSizePolicy(sizePolicy2);
         button_signup->setStyleSheet(QString::fromUtf8("font: italic 12pt \"Segoe UI\";\n"
-"color: rgb(170, 85, 127);"));
+"color: rgb(170, 85, 127);\n"
+"background-color: rgb(43, 43, 43);"));
 
         verticalLayout_2->addWidget(button_signup, 0, Qt::AlignHCenter|Qt::AlignBottom);
 
@@ -439,8 +496,10 @@ public:
         chat->setObjectName("chat");
         sizePolicy2.setHeightForWidth(chat->sizePolicy().hasHeightForWidth());
         chat->setSizePolicy(sizePolicy2);
+        chat->setMinimumSize(QSize(450, 550));
+        chat->setMaximumSize(QSize(450, 550));
 
-        verticalLayout_6->addWidget(chat);
+        verticalLayout_6->addWidget(chat, 0, Qt::AlignHCenter);
 
         chat_loading = new QLabel(chat_w);
         chat_loading->setObjectName("chat_loading");
@@ -455,7 +514,7 @@ public:
 
         stackedWidget->addWidget(chat_w);
 
-        horizontalLayout->addWidget(stackedWidget);
+        horizontalLayout->addWidget(stackedWidget, 0, Qt::AlignHCenter);
 
         horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
 
@@ -465,7 +524,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(3);
+        stackedWidget->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -474,6 +533,9 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        back_from_chat->setText(QCoreApplication::translate("MainWindow", "Back", nullptr));
+        login_sidebar->setText(QCoreApplication::translate("MainWindow", "Log in", nullptr));
+        signup_sidebar->setText(QCoreApplication::translate("MainWindow", "Sign up", nullptr));
         label->setText(QString());
         label_2->setText(QCoreApplication::translate("MainWindow", "Log in to the StudyBuddy", nullptr));
         email_login->setPlaceholderText(QCoreApplication::translate("MainWindow", "Email", nullptr));

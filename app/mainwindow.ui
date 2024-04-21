@@ -18,7 +18,65 @@
     <normaloff>:/images/images/logo.png</normaloff>:/images/images/logo.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
+    <item alignment="Qt::AlignLeft">
+     <widget class="QWidget" name="sidebar" native="true">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(43, 43, 43);</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_7">
+       <item alignment="Qt::AlignTop">
+        <widget class="QPushButton" name="back_from_chat">
+         <property name="styleSheet">
+          <string notr="true">font: italic 12pt &quot;Segoe UI&quot;;
+color: rgb(170, 85, 127);</string>
+         </property>
+         <property name="text">
+          <string>Back</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="login_sidebar">
+         <property name="styleSheet">
+          <string notr="true">font: italic 12pt &quot;Segoe UI&quot;;
+color: rgb(170, 85, 127);</string>
+         </property>
+         <property name="text">
+          <string>Log in</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="signup_sidebar">
+         <property name="styleSheet">
+          <string notr="true">font: italic 12pt &quot;Segoe UI&quot;;
+color: rgb(170, 85, 127);</string>
+         </property>
+         <property name="text">
+          <string>Sign up</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
     <item>
      <spacer name="horizontalSpacer">
       <property name="orientation">
@@ -32,7 +90,7 @@
       </property>
      </spacer>
     </item>
-    <item>
+    <item alignment="Qt::AlignHCenter">
      <widget class="QStackedWidget" name="stackedWidget">
       <property name="sizeIncrement">
        <size>
@@ -40,8 +98,11 @@
         <height>1</height>
        </size>
       </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
       <property name="currentIndex">
-       <number>3</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="login">
        <property name="sizePolicy">
@@ -53,6 +114,9 @@
        <layout class="QVBoxLayout" name="verticalLayout_3">
         <item alignment="Qt::AlignHCenter|Qt::AlignBottom">
          <widget class="QLabel" name="label">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(43, 43, 43, 0);</string>
+          </property>
           <property name="text">
            <string/>
           </property>
@@ -68,7 +132,8 @@
          <widget class="QLabel" name="label_2">
           <property name="styleSheet">
            <string notr="true">font: italic 20pt &quot;Rockwell&quot;;
-color: rgb(170, 0, 127);</string>
+color: rgb(170, 0, 127);
+background-color: rgba(43, 43, 43, 0);</string>
           </property>
           <property name="text">
            <string>Log in to the StudyBuddy</string>
@@ -88,7 +153,7 @@ color: rgb(170, 0, 127);</string>
              </property>
              <property name="minimumSize">
               <size>
-               <width>400</width>
+               <width>500</width>
                <height>0</height>
               </size>
              </property>
@@ -97,6 +162,9 @@ color: rgb(170, 0, 127);</string>
                <width>550</width>
                <height>16777215</height>
               </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(43, 43, 43);</string>
              </property>
              <property name="placeholderText">
               <string>Email</string>
@@ -113,7 +181,7 @@ color: rgb(170, 0, 127);</string>
              </property>
              <property name="minimumSize">
               <size>
-               <width>400</width>
+               <width>500</width>
                <height>0</height>
               </size>
              </property>
@@ -122,6 +190,10 @@ color: rgb(170, 0, 127);</string>
                <width>550</width>
                <height>16777215</height>
               </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(43, 43, 43);
+</string>
              </property>
              <property name="inputMethodHints">
               <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
@@ -170,7 +242,8 @@ color: rgb(170, 85, 127);</string>
                <widget class="QPushButton" name="button_to_signup">
                 <property name="styleSheet">
                  <string notr="true">font: italic 6pt &quot;Segoe UI&quot;;
-color: rgb(170, 85, 127);</string>
+color: rgb(170, 85, 127);
+background-color: rgb(43, 43, 43);</string>
                 </property>
                 <property name="text">
                  <string>Sign up</string>
@@ -190,7 +263,8 @@ color: rgb(170, 85, 127);</string>
              </property>
              <property name="styleSheet">
               <string notr="true">font: italic 12pt &quot;Segoe UI&quot;;
-color: rgb(170, 85, 127);</string>
+color: rgb(170, 85, 127);
+background-color: rgb(43, 43, 43);</string>
              </property>
              <property name="text">
               <string>Log in</string>
@@ -206,6 +280,9 @@ color: rgb(170, 85, 127);</string>
        <layout class="QVBoxLayout" name="verticalLayout_5">
         <item alignment="Qt::AlignHCenter|Qt::AlignBottom">
          <widget class="QLabel" name="label_4">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(43, 43, 43, 0);</string>
+          </property>
           <property name="text">
            <string/>
           </property>
@@ -221,7 +298,8 @@ color: rgb(170, 85, 127);</string>
          <widget class="QLabel" name="label_3">
           <property name="styleSheet">
            <string notr="true">font: italic 20pt &quot;Rockwell&quot;;
-color: rgb(170, 0, 127);</string>
+color: rgb(170, 0, 127);
+background-color: rgba(43, 43, 43,0);</string>
           </property>
           <property name="text">
            <string>Sign up to the StudyBuddy</string>
@@ -231,15 +309,33 @@ color: rgb(170, 0, 127);</string>
         <item>
          <widget class="QWidget" name="widget_2" native="true">
           <layout class="QVBoxLayout" name="verticalLayout_2">
-           <item alignment="Qt::AlignTop">
+           <item alignment="Qt::AlignHCenter|Qt::AlignTop">
             <widget class="QLineEdit" name="email_signup">
+             <property name="minimumSize">
+              <size>
+               <width>500</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(43, 43, 43);</string>
+             </property>
              <property name="placeholderText">
               <string>Email</string>
              </property>
             </widget>
            </item>
-           <item alignment="Qt::AlignTop">
+           <item alignment="Qt::AlignHCenter|Qt::AlignTop">
             <widget class="QLineEdit" name="password_signup">
+             <property name="minimumSize">
+              <size>
+               <width>500</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(43, 43, 43);</string>
+             </property>
              <property name="inputMethodHints">
               <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
              </property>
@@ -251,8 +347,17 @@ color: rgb(170, 0, 127);</string>
              </property>
             </widget>
            </item>
-           <item alignment="Qt::AlignTop">
+           <item alignment="Qt::AlignHCenter|Qt::AlignTop">
             <widget class="QLineEdit" name="passwordconf_signup">
+             <property name="minimumSize">
+              <size>
+               <width>500</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(43, 43, 43);</string>
+             </property>
              <property name="placeholderText">
               <string>Password Confirmation</string>
              </property>
@@ -268,7 +373,8 @@ color: rgb(170, 0, 127);</string>
              </property>
              <property name="styleSheet">
               <string notr="true">font: italic 12pt &quot;Segoe UI&quot;;
-color: rgb(170, 85, 127);</string>
+color: rgb(170, 85, 127);
+background-color: rgb(43, 43, 43);</string>
              </property>
              <property name="text">
               <string>Sign up</string>
@@ -613,13 +719,25 @@ color: rgb(170, 85, 127);</string>
           </property>
          </spacer>
         </item>
-        <item>
+        <item alignment="Qt::AlignHCenter">
          <widget class="QWebEngineView" name="chat" native="true">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>450</width>
+            <height>550</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>450</width>
+            <height>550</height>
+           </size>
           </property>
          </widget>
         </item>

@@ -193,7 +193,7 @@ build MainWindow_autogen\EWIEGA46WW\qrc_images.cpp | ${cmake_ninja_workdir}MainW
 #############################################
 # Phony custom command for CMakeFiles\MainWindow_autogen_timestamp_deps
 
-build CMakeFiles\MainWindow_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles\MainWindow_autogen_timestamp_deps: phony D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\.\bin\moc.exe D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\lib\Qt6Widgetsd.lib D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\.\bin\uic.exe D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\lib\Qt6Cored.lib D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\lib\Qt6WebEngineWidgetsd.lib
+build CMakeFiles\MainWindow_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles\MainWindow_autogen_timestamp_deps: phony D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\.\bin\moc.exe D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\lib\Qt6WebEngineWidgetsd.lib D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\.\bin\uic.exe D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\lib\Qt6Widgetsd.lib D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\lib\Qt6Cored.lib
 
 
 #############################################
