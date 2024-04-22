@@ -13,9 +13,10 @@ SET(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
 set(FOLDER "${CMAKE_CURRENT_SOURCE_DIR}/..")
 
-set(LIB_DIR "FOLDER/Qt/msvc2019_64/lib")
+set(LIB_DIR "${FOLDER}/Qt/msvc2019_64/lib")
 
-set(QT_DIR "LIB_DIR/cmake/Qt6")
+set(QT_DIR "${LIB_DIR}/cmake/Qt6")
+set(Qt6_DIR "${QT_DIR}")
 
 find_package(Qt6 REQUIRED COMPONENTS Core)
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
