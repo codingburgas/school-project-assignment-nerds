@@ -1,25 +1,21 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "qwebengineview.h"
-#include "qgraphicseffect.h"
-#include "QGraphicsOpacityEffect"
-//#include "qgraphicsopacityeffect.h"
 
 
 MainWindow::MainWindow(QWidget* parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
+    this->setWindowTitle(QString("StudyBuddy"));
     ui->setupUi(this);
     this->connectAll();
 
-    this->setStyleSheet(QString(" #centralwidget{ background-image: url(:/images/images/bg.png) }; QLineEdit:hover{ background-color:rgba(43, 43, 43, 100); }"));
+    this->setStyleSheet(QString(" #centralwidget{ background-image: url(:/images/images/bg.png) }; }"));
 
     //login-0, signup-1, main-2, chat-3
     this->setIndex(0);
-    this->ui->back_from_chat->setVisible(false);
-    this->ui->chat->setVisible(false);
-
+    this->setGeometry(0, 0, 950, 700);
 }
 
 MainWindow::~MainWindow()
@@ -37,7 +33,11 @@ void MainWindow::chatLoaded()
 
 void MainWindow::setIndex(int index)
 {
+    //manage stackedWidget(main widget)
     this->ui->stackedWidget->setCurrentIndex(index);
+    this->ui->stackedWidget->setMinimumSize(this->ui->stackedWidget->currentWidget()->minimumSizeHint());
+
+    //manage sidebar
     this->ui->login_sidebar->setVisible(true);
     this->ui->signup_sidebar->setVisible(true);
     this->ui->back_from_chat->setVisible(false);
@@ -58,18 +58,20 @@ void MainWindow::setIndex(int index)
 }
 
 void MainWindow::setIndex(int index, int subject) {
-    //chat page
+    //manage chat page
+    this->ui->chat_loading->setVisible(true);
     this->ui->stackedWidget->setCurrentIndex(index);
+    this->ui->stackedWidget->setMinimumSize(this->ui->stackedWidget->currentWidget()->minimumSize());
 
+    //manage sidebar
     this->ui->back_from_chat->setVisible(true);
     this->ui->login_sidebar->setVisible(false);
     this->ui->signup_sidebar->setVisible(false);
 
+    //load new chat
     auto* w = this->ui->chat;
     w->load(this->chats[subject]);
-
     QObject::connect(w, &QWebEngineView::loadFinished, this, &MainWindow::chatLoaded);
-
 }
 
 void MainWindow::connectAll()
@@ -90,8 +92,10 @@ void MainWindow::connectAll()
     QObject::connect(this->ui->button_subject_biology, &QPushButton::clicked, this, [this] { setIndex(3, 3); });
     //connect geography
     QObject::connect(this->ui->button_subject_geography, &QPushButton::clicked, this, [this] { setIndex(3, 4); });
-    //connect literature
-    QObject::connect(this->ui->button_subject_literature, &QPushButton::clicked, this, [this] { setIndex(3, 5); });
+    //connect history
+    QObject::connect(this->ui->button_subject_history, &QPushButton::clicked, this, [this] { setIndex(3, 5); });
+    //connect translator
+    QObject::connect(this->ui->button_subject_translator, &QPushButton::clicked, this, [this] { setIndex(3, 6); });
     //connect back_to_main_from_chat
     QObject::connect(this->ui->back_from_chat, &QPushButton::clicked, this, [this] { setIndex(2); ui->chat->setVisible(false); });
     //connect sidebar login
@@ -112,7 +116,6 @@ void MainWindow::logIn()
         this->ui->email_login->setText(QString("Invalid data"));
         this->ui->password_login->setText(QString());
     }
-
 }
 void MainWindow::signUp()
 {

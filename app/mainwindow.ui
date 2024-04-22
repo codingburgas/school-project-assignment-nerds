@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1026</width>
+    <width>1450</width>
     <height>770</height>
    </rect>
   </property>
@@ -22,10 +22,10 @@
     <string notr="true"/>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
-    <item alignment="Qt::AlignLeft">
+    <item>
      <widget class="QWidget" name="sidebar" native="true">
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(43, 43, 43);</string>
+       <string notr="true">background-color: rgba(43, 43, 43, 175);</string>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_7">
        <item alignment="Qt::AlignTop">
@@ -90,7 +90,20 @@ color: rgb(170, 85, 127);</string>
       </property>
      </spacer>
     </item>
-    <item alignment="Qt::AlignHCenter">
+    <item>
+     <spacer name="horizontalSpacer_5">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
      <widget class="QStackedWidget" name="stackedWidget">
       <property name="sizeIncrement">
        <size>
@@ -99,7 +112,7 @@ color: rgb(170, 85, 127);</string>
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true"/>
+       <string notr="true">background-color: rgba(43, 43, 43, 175);</string>
       </property>
       <property name="currentIndex">
        <number>0</number>
@@ -142,6 +155,9 @@ background-color: rgba(43, 43, 43, 0);</string>
         </item>
         <item alignment="Qt::AlignBottom">
          <widget class="QWidget" name="widget" native="true">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+          </property>
           <layout class="QVBoxLayout" name="verticalLayout">
            <item alignment="Qt::AlignHCenter">
             <widget class="QLineEdit" name="email_login">
@@ -409,278 +425,372 @@ background-color: rgb(43, 43, 43);</string>
           <property name="frameShadow">
            <enum>QFrame::Raised</enum>
           </property>
-          <layout class="QGridLayout" name="gridLayout_2">
-           <property name="leftMargin">
-            <number>30</number>
-           </property>
-           <property name="topMargin">
-            <number>30</number>
-           </property>
-           <property name="rightMargin">
-            <number>30</number>
-           </property>
-           <property name="bottomMargin">
-            <number>30</number>
-           </property>
-           <property name="horizontalSpacing">
-            <number>20</number>
-           </property>
-           <property name="verticalSpacing">
-            <number>30</number>
-           </property>
-           <item row="0" column="0">
-            <widget class="QWidget" name="math_2" native="true">
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(21, 80, 140);</string>
+          <layout class="QVBoxLayout" name="verticalLayout_8">
+           <item>
+            <widget class="QFrame" name="line1">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
              </property>
-             <layout class="QVBoxLayout" name="verticalLayout_15">
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
               <item>
-               <widget class="QPushButton" name="button_subject_math">
-                <property name="layoutDirection">
-                 <enum>Qt::LeftToRight</enum>
+               <widget class="QWidget" name="math_2" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>0</height>
+                 </size>
                 </property>
                 <property name="styleSheet">
                  <string notr="true">background-color: rgb(21, 80, 140);</string>
                 </property>
-                <property name="text">
-                 <string/>
-                </property>
-                <property name="icon">
-                 <iconset resource="images.qrc">
-                  <normaloff>:/images/images/subject</normaloff>:/images/images/subject</iconset>
-                </property>
-                <property name="iconSize">
-                 <size>
-                  <width>200</width>
-                  <height>200</height>
-                 </size>
-                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_15">
+                 <item>
+                  <widget class="QPushButton" name="button_subject_math">
+                   <property name="layoutDirection">
+                    <enum>Qt::LeftToRight</enum>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(21, 80, 140);</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="images.qrc">
+                     <normaloff>:/images/images/mathematics.png</normaloff>:/images/images/mathematics.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>250</width>
+                     <height>160</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                 <item alignment="Qt::AlignHCenter">
+                  <widget class="QLabel" name="label_16">
+                   <property name="styleSheet">
+                    <string notr="true">font: italic bold 14pt &quot;Segoe UI&quot;;
+color: rgb(170, 85, 127);</string>
+                   </property>
+                   <property name="text">
+                    <string>Math</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
                </widget>
               </item>
-              <item alignment="Qt::AlignHCenter">
-               <widget class="QLabel" name="label_16">
+              <item>
+               <widget class="QWidget" name="physics_2" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>227</height>
+                 </size>
+                </property>
                 <property name="styleSheet">
-                 <string notr="true">font: italic bold 14pt &quot;Segoe UI&quot;;
+                 <string notr="true">background-color: rgb(21, 80, 140);</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_12">
+                 <item>
+                  <widget class="QPushButton" name="button_subject_physics">
+                   <property name="layoutDirection">
+                    <enum>Qt::LeftToRight</enum>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(21, 80, 140);</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="images.qrc">
+                     <normaloff>:/images/images/physics.png</normaloff>:/images/images/physics.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>250</width>
+                     <height>160</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                 <item alignment="Qt::AlignHCenter">
+                  <widget class="QLabel" name="label_13">
+                   <property name="styleSheet">
+                    <string notr="true">font: italic bold 14pt &quot;Segoe UI&quot;;
 color: rgb(170, 85, 127);</string>
+                   </property>
+                   <property name="text">
+                    <string>Physics</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="chemistry_2" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>227</height>
+                 </size>
                 </property>
-                <property name="text">
-                 <string>Math</string>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(21, 80, 140);</string>
                 </property>
+                <layout class="QVBoxLayout" name="verticalLayout_13">
+                 <item>
+                  <widget class="QPushButton" name="button_subject_chemistry">
+                   <property name="layoutDirection">
+                    <enum>Qt::LeftToRight</enum>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(21, 80, 140);</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset>
+                     <normaloff>:/images/images/Chemistry</normaloff>:/images/images/Chemistry</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>250</width>
+                     <height>160</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                 <item alignment="Qt::AlignHCenter">
+                  <widget class="QLabel" name="label_14">
+                   <property name="styleSheet">
+                    <string notr="true">font: italic bold 14pt &quot;Segoe UI&quot;;
+color: rgb(170, 85, 127);</string>
+                   </property>
+                   <property name="text">
+                    <string>Chemistry</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="translator" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>227</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(21, 80, 140);</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_14">
+                 <item>
+                  <widget class="QPushButton" name="button_subject_translator">
+                   <property name="layoutDirection">
+                    <enum>Qt::LeftToRight</enum>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(21, 80, 140);</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="images.qrc">
+                     <normaloff>:/images/images/translate.png</normaloff>:/images/images/translate.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>250</width>
+                     <height>160</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_15">
+                   <property name="styleSheet">
+                    <string notr="true">font: italic bold 14pt &quot;Segoe UI&quot;;
+color: rgb(170, 85, 127);</string>
+                   </property>
+                   <property name="text">
+                    <string>Buddy translate</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
                </widget>
               </item>
              </layout>
             </widget>
            </item>
-           <item row="0" column="1">
-            <widget class="QWidget" name="physics_2" native="true">
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(21, 80, 140);</string>
+           <item alignment="Qt::AlignHCenter">
+            <widget class="QFrame" name="line2">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
              </property>
-             <layout class="QVBoxLayout" name="verticalLayout_12">
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_4">
               <item>
-               <widget class="QPushButton" name="button_subject_physics">
-                <property name="layoutDirection">
-                 <enum>Qt::LeftToRight</enum>
+               <widget class="QWidget" name="biology_2" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>227</height>
+                 </size>
                 </property>
                 <property name="styleSheet">
                  <string notr="true">background-color: rgb(21, 80, 140);</string>
                 </property>
-                <property name="text">
-                 <string/>
-                </property>
-                <property name="icon">
-                 <iconset resource="images.qrc">
-                  <normaloff>:/images/images/subject</normaloff>:/images/images/subject</iconset>
-                </property>
-                <property name="iconSize">
-                 <size>
-                  <width>200</width>
-                  <height>200</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item alignment="Qt::AlignHCenter">
-               <widget class="QLabel" name="label_13">
-                <property name="styleSheet">
-                 <string notr="true">font: italic bold 14pt &quot;Segoe UI&quot;;
+                <layout class="QVBoxLayout" name="verticalLayout_11">
+                 <item>
+                  <widget class="QPushButton" name="button_subject_biology">
+                   <property name="layoutDirection">
+                    <enum>Qt::LeftToRight</enum>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(21, 80, 140);</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="images.qrc">
+                     <normaloff>:/images/images/biology.png</normaloff>:/images/images/biology.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>250</width>
+                     <height>160</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                 <item alignment="Qt::AlignHCenter">
+                  <widget class="QLabel" name="label_12">
+                   <property name="styleSheet">
+                    <string notr="true">font: italic bold 14pt &quot;Segoe UI&quot;;
 color: rgb(170, 85, 127);</string>
-                </property>
-                <property name="text">
-                 <string>Physics</string>
-                </property>
+                   </property>
+                   <property name="text">
+                    <string>Biology</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
                </widget>
               </item>
-             </layout>
-            </widget>
-           </item>
-           <item row="0" column="2">
-            <widget class="QWidget" name="chemistry_2" native="true">
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(21, 80, 140);</string>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_13">
               <item>
-               <widget class="QPushButton" name="button_subject_chemistry">
-                <property name="layoutDirection">
-                 <enum>Qt::LeftToRight</enum>
+               <widget class="QWidget" name="geography_2" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>227</height>
+                 </size>
                 </property>
                 <property name="styleSheet">
                  <string notr="true">background-color: rgb(21, 80, 140);</string>
                 </property>
-                <property name="text">
-                 <string/>
-                </property>
-                <property name="icon">
-                 <iconset resource="images.qrc">
-                  <normaloff>:/images/images/subject</normaloff>:/images/images/subject</iconset>
-                </property>
-                <property name="iconSize">
-                 <size>
-                  <width>200</width>
-                  <height>200</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item alignment="Qt::AlignHCenter">
-               <widget class="QLabel" name="label_14">
-                <property name="styleSheet">
-                 <string notr="true">font: italic bold 14pt &quot;Segoe UI&quot;;
+                <layout class="QVBoxLayout" name="verticalLayout_18">
+                 <item>
+                  <widget class="QPushButton" name="button_subject_geography">
+                   <property name="layoutDirection">
+                    <enum>Qt::LeftToRight</enum>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(21, 80, 140);</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="images.qrc">
+                     <normaloff>:/images/images/geography.png</normaloff>:/images/images/geography.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>250</width>
+                     <height>160</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                 <item alignment="Qt::AlignHCenter">
+                  <widget class="QLabel" name="label_19">
+                   <property name="styleSheet">
+                    <string notr="true">font: italic bold 14pt &quot;Segoe UI&quot;;
 color: rgb(170, 85, 127);</string>
-                </property>
-                <property name="text">
-                 <string>Chemistry</string>
-                </property>
+                   </property>
+                   <property name="text">
+                    <string>Geography</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
                </widget>
               </item>
-             </layout>
-            </widget>
-           </item>
-           <item row="1" column="0">
-            <widget class="QWidget" name="biology_2" native="true">
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(21, 80, 140);</string>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_11">
               <item>
-               <widget class="QPushButton" name="button_subject_biology">
-                <property name="layoutDirection">
-                 <enum>Qt::LeftToRight</enum>
+               <widget class="QWidget" name="history" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>227</height>
+                 </size>
                 </property>
                 <property name="styleSheet">
                  <string notr="true">background-color: rgb(21, 80, 140);</string>
                 </property>
-                <property name="text">
-                 <string/>
-                </property>
-                <property name="icon">
-                 <iconset resource="images.qrc">
-                  <normaloff>:/images/images/subject</normaloff>:/images/images/subject</iconset>
-                </property>
-                <property name="iconSize">
-                 <size>
-                  <width>200</width>
-                  <height>200</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item alignment="Qt::AlignHCenter">
-               <widget class="QLabel" name="label_12">
-                <property name="styleSheet">
-                 <string notr="true">font: italic bold 14pt &quot;Segoe UI&quot;;
+                <layout class="QVBoxLayout" name="verticalLayout_19">
+                 <item>
+                  <widget class="QPushButton" name="button_subject_history">
+                   <property name="layoutDirection">
+                    <enum>Qt::LeftToRight</enum>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(21, 80, 140);</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="images.qrc">
+                     <normaloff>:/images/images/history.png</normaloff>:/images/images/history.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>250</width>
+                     <height>160</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                 <item alignment="Qt::AlignHCenter">
+                  <widget class="QLabel" name="label_20">
+                   <property name="styleSheet">
+                    <string notr="true">font: italic bold 14pt &quot;Segoe UI&quot;;
 color: rgb(170, 85, 127);</string>
-                </property>
-                <property name="text">
-                 <string>Biology</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </item>
-           <item row="1" column="1">
-            <widget class="QWidget" name="geography_2" native="true">
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(21, 80, 140);</string>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_16">
-              <item>
-               <widget class="QPushButton" name="button_subject_geography">
-                <property name="layoutDirection">
-                 <enum>Qt::LeftToRight</enum>
-                </property>
-                <property name="styleSheet">
-                 <string notr="true">background-color: rgb(21, 80, 140);</string>
-                </property>
-                <property name="text">
-                 <string/>
-                </property>
-                <property name="icon">
-                 <iconset resource="images.qrc">
-                  <normaloff>:/images/images/subject</normaloff>:/images/images/subject</iconset>
-                </property>
-                <property name="iconSize">
-                 <size>
-                  <width>200</width>
-                  <height>200</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item alignment="Qt::AlignHCenter">
-               <widget class="QLabel" name="label_17">
-                <property name="styleSheet">
-                 <string notr="true">font: italic bold 14pt &quot;Segoe UI&quot;;
-color: rgb(170, 85, 127);</string>
-                </property>
-                <property name="text">
-                 <string>Geography</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </item>
-           <item row="1" column="2">
-            <widget class="QWidget" name="literature_2" native="true">
-             <property name="styleSheet">
-              <string notr="true">background-color: rgb(21, 80, 140);</string>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_14">
-              <item>
-               <widget class="QPushButton" name="button_subject_literature">
-                <property name="layoutDirection">
-                 <enum>Qt::LeftToRight</enum>
-                </property>
-                <property name="styleSheet">
-                 <string notr="true">background-color: rgb(21, 80, 140);</string>
-                </property>
-                <property name="text">
-                 <string/>
-                </property>
-                <property name="icon">
-                 <iconset resource="images.qrc">
-                  <normaloff>:/images/images/subject</normaloff>:/images/images/subject</iconset>
-                </property>
-                <property name="iconSize">
-                 <size>
-                  <width>200</width>
-                  <height>200</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item alignment="Qt::AlignHCenter">
-               <widget class="QLabel" name="label_15">
-                <property name="styleSheet">
-                 <string notr="true">font: italic bold 14pt &quot;Segoe UI&quot;;
-color: rgb(170, 85, 127);</string>
-                </property>
-                <property name="text">
-                 <string>Literature</string>
-                </property>
+                   </property>
+                   <property name="text">
+                    <string>History</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
                </widget>
               </item>
              </layout>
@@ -705,21 +815,14 @@ color: rgb(170, 85, 127);</string>
        </layout>
       </widget>
       <widget class="QWidget" name="chat_w">
+       <property name="minimumSize">
+        <size>
+         <width>460</width>
+         <height>600</height>
+        </size>
+       </property>
        <layout class="QVBoxLayout" name="verticalLayout_6">
-        <item>
-         <spacer name="verticalSpacer_3">
-          <property name="orientation">
-           <enum>Qt::Vertical</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>20</width>
-            <height>334</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-        <item alignment="Qt::AlignHCenter">
+        <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
          <widget class="QWebEngineView" name="chat" native="true">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -729,8 +832,8 @@ color: rgb(170, 85, 127);</string>
           </property>
           <property name="minimumSize">
            <size>
-            <width>450</width>
-            <height>550</height>
+            <width>460</width>
+            <height>600</height>
            </size>
           </property>
           <property name="maximumSize">
@@ -741,7 +844,7 @@ color: rgb(170, 85, 127);</string>
           </property>
          </widget>
         </item>
-        <item alignment="Qt::AlignHCenter">
+        <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
          <widget class="QLabel" name="chat_loading">
           <property name="styleSheet">
            <string notr="true">font: italic bold 14pt &quot;Segoe UI&quot;;
@@ -752,25 +855,25 @@ color: rgb(170, 85, 127);</string>
           </property>
          </widget>
         </item>
-        <item>
-         <spacer name="verticalSpacer_4">
-          <property name="orientation">
-           <enum>Qt::Vertical</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>20</width>
-            <height>334</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
        </layout>
       </widget>
      </widget>
     </item>
     <item>
      <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_6">
       <property name="orientation">
        <enum>Qt::Horizontal</enum>
       </property>

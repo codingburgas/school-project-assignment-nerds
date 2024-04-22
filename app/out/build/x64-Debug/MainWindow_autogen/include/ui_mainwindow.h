@@ -14,7 +14,6 @@
 #include <QtWebEngineWidgets/QWebEngineView>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QFrame>
-#include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
@@ -39,6 +38,7 @@ public:
     QPushButton *signup_sidebar;
     QSpacerItem *verticalSpacer_5;
     QSpacerItem *horizontalSpacer;
+    QSpacerItem *horizontalSpacer_5;
     QStackedWidget *stackedWidget;
     QWidget *login;
     QVBoxLayout *verticalLayout_3;
@@ -67,7 +67,9 @@ public:
     QVBoxLayout *verticalLayout_4;
     QSpacerItem *verticalSpacer;
     QFrame *frame;
-    QGridLayout *gridLayout_2;
+    QVBoxLayout *verticalLayout_8;
+    QFrame *line1;
+    QHBoxLayout *horizontalLayout_3;
     QWidget *math_2;
     QVBoxLayout *verticalLayout_15;
     QPushButton *button_subject_math;
@@ -80,32 +82,37 @@ public:
     QVBoxLayout *verticalLayout_13;
     QPushButton *button_subject_chemistry;
     QLabel *label_14;
+    QWidget *translator;
+    QVBoxLayout *verticalLayout_14;
+    QPushButton *button_subject_translator;
+    QLabel *label_15;
+    QFrame *line2;
+    QHBoxLayout *horizontalLayout_4;
     QWidget *biology_2;
     QVBoxLayout *verticalLayout_11;
     QPushButton *button_subject_biology;
     QLabel *label_12;
     QWidget *geography_2;
-    QVBoxLayout *verticalLayout_16;
+    QVBoxLayout *verticalLayout_18;
     QPushButton *button_subject_geography;
-    QLabel *label_17;
-    QWidget *literature_2;
-    QVBoxLayout *verticalLayout_14;
-    QPushButton *button_subject_literature;
-    QLabel *label_15;
+    QLabel *label_19;
+    QWidget *history;
+    QVBoxLayout *verticalLayout_19;
+    QPushButton *button_subject_history;
+    QLabel *label_20;
     QSpacerItem *verticalSpacer_2;
     QWidget *chat_w;
     QVBoxLayout *verticalLayout_6;
-    QSpacerItem *verticalSpacer_3;
     QWebEngineView *chat;
     QLabel *chat_loading;
-    QSpacerItem *verticalSpacer_4;
     QSpacerItem *horizontalSpacer_2;
+    QSpacerItem *horizontalSpacer_6;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(1026, 770);
+        MainWindow->resize(1450, 770);
         QIcon icon;
         icon.addFile(QString::fromUtf8(":/images/images/logo.png"), QSize(), QIcon::Normal, QIcon::Off);
         MainWindow->setWindowIcon(icon);
@@ -116,7 +123,7 @@ public:
         horizontalLayout->setObjectName("horizontalLayout");
         sidebar = new QWidget(centralwidget);
         sidebar->setObjectName("sidebar");
-        sidebar->setStyleSheet(QString::fromUtf8("background-color: rgb(43, 43, 43);"));
+        sidebar->setStyleSheet(QString::fromUtf8("background-color: rgba(43, 43, 43, 175);"));
         verticalLayout_7 = new QVBoxLayout(sidebar);
         verticalLayout_7->setObjectName("verticalLayout_7");
         back_from_chat = new QPushButton(sidebar);
@@ -145,16 +152,20 @@ public:
         verticalLayout_7->addItem(verticalSpacer_5);
 
 
-        horizontalLayout->addWidget(sidebar, 0, Qt::AlignLeft);
+        horizontalLayout->addWidget(sidebar);
 
         horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
 
         horizontalLayout->addItem(horizontalSpacer);
 
+        horizontalSpacer_5 = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer_5);
+
         stackedWidget = new QStackedWidget(centralwidget);
         stackedWidget->setObjectName("stackedWidget");
         stackedWidget->setSizeIncrement(QSize(1, 1));
-        stackedWidget->setStyleSheet(QString::fromUtf8(""));
+        stackedWidget->setStyleSheet(QString::fromUtf8("background-color: rgba(43, 43, 43, 175);"));
         login = new QWidget();
         login->setObjectName("login");
         QSizePolicy sizePolicy(QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Preferred);
@@ -182,6 +193,7 @@ public:
 
         widget = new QWidget(login);
         widget->setObjectName("widget");
+        widget->setStyleSheet(QString::fromUtf8("background-color: rgba(255, 255, 255, 0);"));
         verticalLayout = new QVBoxLayout(widget);
         verticalLayout->setObjectName("verticalLayout");
         email_login = new QLineEdit(widget);
@@ -325,13 +337,17 @@ public:
         frame->setObjectName("frame");
         frame->setFrameShape(QFrame::StyledPanel);
         frame->setFrameShadow(QFrame::Raised);
-        gridLayout_2 = new QGridLayout(frame);
-        gridLayout_2->setObjectName("gridLayout_2");
-        gridLayout_2->setHorizontalSpacing(20);
-        gridLayout_2->setVerticalSpacing(30);
-        gridLayout_2->setContentsMargins(30, 30, 30, 30);
-        math_2 = new QWidget(frame);
+        verticalLayout_8 = new QVBoxLayout(frame);
+        verticalLayout_8->setObjectName("verticalLayout_8");
+        line1 = new QFrame(frame);
+        line1->setObjectName("line1");
+        line1->setFrameShape(QFrame::StyledPanel);
+        line1->setFrameShadow(QFrame::Raised);
+        horizontalLayout_3 = new QHBoxLayout(line1);
+        horizontalLayout_3->setObjectName("horizontalLayout_3");
+        math_2 = new QWidget(line1);
         math_2->setObjectName("math_2");
+        math_2->setMinimumSize(QSize(300, 0));
         math_2->setStyleSheet(QString::fromUtf8("background-color: rgb(21, 80, 140);"));
         verticalLayout_15 = new QVBoxLayout(math_2);
         verticalLayout_15->setObjectName("verticalLayout_15");
@@ -340,9 +356,9 @@ public:
         button_subject_math->setLayoutDirection(Qt::LeftToRight);
         button_subject_math->setStyleSheet(QString::fromUtf8("background-color: rgb(21, 80, 140);"));
         QIcon icon1;
-        icon1.addFile(QString::fromUtf8(":/images/images/subject"), QSize(), QIcon::Normal, QIcon::Off);
+        icon1.addFile(QString::fromUtf8(":/images/images/mathematics.png"), QSize(), QIcon::Normal, QIcon::Off);
         button_subject_math->setIcon(icon1);
-        button_subject_math->setIconSize(QSize(200, 200));
+        button_subject_math->setIconSize(QSize(250, 160));
 
         verticalLayout_15->addWidget(button_subject_math);
 
@@ -354,10 +370,11 @@ public:
         verticalLayout_15->addWidget(label_16, 0, Qt::AlignHCenter);
 
 
-        gridLayout_2->addWidget(math_2, 0, 0, 1, 1);
+        horizontalLayout_3->addWidget(math_2);
 
-        physics_2 = new QWidget(frame);
+        physics_2 = new QWidget(line1);
         physics_2->setObjectName("physics_2");
+        physics_2->setMinimumSize(QSize(300, 227));
         physics_2->setStyleSheet(QString::fromUtf8("background-color: rgb(21, 80, 140);"));
         verticalLayout_12 = new QVBoxLayout(physics_2);
         verticalLayout_12->setObjectName("verticalLayout_12");
@@ -365,8 +382,10 @@ public:
         button_subject_physics->setObjectName("button_subject_physics");
         button_subject_physics->setLayoutDirection(Qt::LeftToRight);
         button_subject_physics->setStyleSheet(QString::fromUtf8("background-color: rgb(21, 80, 140);"));
-        button_subject_physics->setIcon(icon1);
-        button_subject_physics->setIconSize(QSize(200, 200));
+        QIcon icon2;
+        icon2.addFile(QString::fromUtf8(":/images/images/physics.png"), QSize(), QIcon::Normal, QIcon::Off);
+        button_subject_physics->setIcon(icon2);
+        button_subject_physics->setIconSize(QSize(250, 160));
 
         verticalLayout_12->addWidget(button_subject_physics);
 
@@ -378,10 +397,11 @@ public:
         verticalLayout_12->addWidget(label_13, 0, Qt::AlignHCenter);
 
 
-        gridLayout_2->addWidget(physics_2, 0, 1, 1, 1);
+        horizontalLayout_3->addWidget(physics_2);
 
-        chemistry_2 = new QWidget(frame);
+        chemistry_2 = new QWidget(line1);
         chemistry_2->setObjectName("chemistry_2");
+        chemistry_2->setMinimumSize(QSize(300, 227));
         chemistry_2->setStyleSheet(QString::fromUtf8("background-color: rgb(21, 80, 140);"));
         verticalLayout_13 = new QVBoxLayout(chemistry_2);
         verticalLayout_13->setObjectName("verticalLayout_13");
@@ -389,8 +409,10 @@ public:
         button_subject_chemistry->setObjectName("button_subject_chemistry");
         button_subject_chemistry->setLayoutDirection(Qt::LeftToRight);
         button_subject_chemistry->setStyleSheet(QString::fromUtf8("background-color: rgb(21, 80, 140);"));
-        button_subject_chemistry->setIcon(icon1);
-        button_subject_chemistry->setIconSize(QSize(200, 200));
+        QIcon icon3;
+        icon3.addFile(QString::fromUtf8(":/images/images/Chemistry"), QSize(), QIcon::Normal, QIcon::Off);
+        button_subject_chemistry->setIcon(icon3);
+        button_subject_chemistry->setIconSize(QSize(250, 160));
 
         verticalLayout_13->addWidget(button_subject_chemistry);
 
@@ -402,10 +424,48 @@ public:
         verticalLayout_13->addWidget(label_14, 0, Qt::AlignHCenter);
 
 
-        gridLayout_2->addWidget(chemistry_2, 0, 2, 1, 1);
+        horizontalLayout_3->addWidget(chemistry_2);
 
-        biology_2 = new QWidget(frame);
+        translator = new QWidget(line1);
+        translator->setObjectName("translator");
+        translator->setMinimumSize(QSize(300, 227));
+        translator->setStyleSheet(QString::fromUtf8("background-color: rgb(21, 80, 140);"));
+        verticalLayout_14 = new QVBoxLayout(translator);
+        verticalLayout_14->setObjectName("verticalLayout_14");
+        button_subject_translator = new QPushButton(translator);
+        button_subject_translator->setObjectName("button_subject_translator");
+        button_subject_translator->setLayoutDirection(Qt::LeftToRight);
+        button_subject_translator->setStyleSheet(QString::fromUtf8("background-color: rgb(21, 80, 140);"));
+        QIcon icon4;
+        icon4.addFile(QString::fromUtf8(":/images/images/translate.png"), QSize(), QIcon::Normal, QIcon::Off);
+        button_subject_translator->setIcon(icon4);
+        button_subject_translator->setIconSize(QSize(250, 160));
+
+        verticalLayout_14->addWidget(button_subject_translator);
+
+        label_15 = new QLabel(translator);
+        label_15->setObjectName("label_15");
+        label_15->setStyleSheet(QString::fromUtf8("font: italic bold 14pt \"Segoe UI\";\n"
+"color: rgb(170, 85, 127);"));
+        label_15->setAlignment(Qt::AlignCenter);
+
+        verticalLayout_14->addWidget(label_15);
+
+
+        horizontalLayout_3->addWidget(translator);
+
+
+        verticalLayout_8->addWidget(line1);
+
+        line2 = new QFrame(frame);
+        line2->setObjectName("line2");
+        line2->setFrameShape(QFrame::StyledPanel);
+        line2->setFrameShadow(QFrame::Raised);
+        horizontalLayout_4 = new QHBoxLayout(line2);
+        horizontalLayout_4->setObjectName("horizontalLayout_4");
+        biology_2 = new QWidget(line2);
         biology_2->setObjectName("biology_2");
+        biology_2->setMinimumSize(QSize(300, 227));
         biology_2->setStyleSheet(QString::fromUtf8("background-color: rgb(21, 80, 140);"));
         verticalLayout_11 = new QVBoxLayout(biology_2);
         verticalLayout_11->setObjectName("verticalLayout_11");
@@ -413,8 +473,10 @@ public:
         button_subject_biology->setObjectName("button_subject_biology");
         button_subject_biology->setLayoutDirection(Qt::LeftToRight);
         button_subject_biology->setStyleSheet(QString::fromUtf8("background-color: rgb(21, 80, 140);"));
-        button_subject_biology->setIcon(icon1);
-        button_subject_biology->setIconSize(QSize(200, 200));
+        QIcon icon5;
+        icon5.addFile(QString::fromUtf8(":/images/images/biology.png"), QSize(), QIcon::Normal, QIcon::Off);
+        button_subject_biology->setIcon(icon5);
+        button_subject_biology->setIconSize(QSize(250, 160));
 
         verticalLayout_11->addWidget(button_subject_biology);
 
@@ -426,55 +488,64 @@ public:
         verticalLayout_11->addWidget(label_12, 0, Qt::AlignHCenter);
 
 
-        gridLayout_2->addWidget(biology_2, 1, 0, 1, 1);
+        horizontalLayout_4->addWidget(biology_2);
 
-        geography_2 = new QWidget(frame);
+        geography_2 = new QWidget(line2);
         geography_2->setObjectName("geography_2");
+        geography_2->setMinimumSize(QSize(300, 227));
         geography_2->setStyleSheet(QString::fromUtf8("background-color: rgb(21, 80, 140);"));
-        verticalLayout_16 = new QVBoxLayout(geography_2);
-        verticalLayout_16->setObjectName("verticalLayout_16");
+        verticalLayout_18 = new QVBoxLayout(geography_2);
+        verticalLayout_18->setObjectName("verticalLayout_18");
         button_subject_geography = new QPushButton(geography_2);
         button_subject_geography->setObjectName("button_subject_geography");
         button_subject_geography->setLayoutDirection(Qt::LeftToRight);
         button_subject_geography->setStyleSheet(QString::fromUtf8("background-color: rgb(21, 80, 140);"));
-        button_subject_geography->setIcon(icon1);
-        button_subject_geography->setIconSize(QSize(200, 200));
+        QIcon icon6;
+        icon6.addFile(QString::fromUtf8(":/images/images/geography.png"), QSize(), QIcon::Normal, QIcon::Off);
+        button_subject_geography->setIcon(icon6);
+        button_subject_geography->setIconSize(QSize(250, 160));
 
-        verticalLayout_16->addWidget(button_subject_geography);
+        verticalLayout_18->addWidget(button_subject_geography);
 
-        label_17 = new QLabel(geography_2);
-        label_17->setObjectName("label_17");
-        label_17->setStyleSheet(QString::fromUtf8("font: italic bold 14pt \"Segoe UI\";\n"
+        label_19 = new QLabel(geography_2);
+        label_19->setObjectName("label_19");
+        label_19->setStyleSheet(QString::fromUtf8("font: italic bold 14pt \"Segoe UI\";\n"
 "color: rgb(170, 85, 127);"));
 
-        verticalLayout_16->addWidget(label_17, 0, Qt::AlignHCenter);
+        verticalLayout_18->addWidget(label_19, 0, Qt::AlignHCenter);
 
 
-        gridLayout_2->addWidget(geography_2, 1, 1, 1, 1);
+        horizontalLayout_4->addWidget(geography_2);
 
-        literature_2 = new QWidget(frame);
-        literature_2->setObjectName("literature_2");
-        literature_2->setStyleSheet(QString::fromUtf8("background-color: rgb(21, 80, 140);"));
-        verticalLayout_14 = new QVBoxLayout(literature_2);
-        verticalLayout_14->setObjectName("verticalLayout_14");
-        button_subject_literature = new QPushButton(literature_2);
-        button_subject_literature->setObjectName("button_subject_literature");
-        button_subject_literature->setLayoutDirection(Qt::LeftToRight);
-        button_subject_literature->setStyleSheet(QString::fromUtf8("background-color: rgb(21, 80, 140);"));
-        button_subject_literature->setIcon(icon1);
-        button_subject_literature->setIconSize(QSize(200, 200));
+        history = new QWidget(line2);
+        history->setObjectName("history");
+        history->setMinimumSize(QSize(300, 227));
+        history->setStyleSheet(QString::fromUtf8("background-color: rgb(21, 80, 140);"));
+        verticalLayout_19 = new QVBoxLayout(history);
+        verticalLayout_19->setObjectName("verticalLayout_19");
+        button_subject_history = new QPushButton(history);
+        button_subject_history->setObjectName("button_subject_history");
+        button_subject_history->setLayoutDirection(Qt::LeftToRight);
+        button_subject_history->setStyleSheet(QString::fromUtf8("background-color: rgb(21, 80, 140);"));
+        QIcon icon7;
+        icon7.addFile(QString::fromUtf8(":/images/images/history.png"), QSize(), QIcon::Normal, QIcon::Off);
+        button_subject_history->setIcon(icon7);
+        button_subject_history->setIconSize(QSize(250, 160));
 
-        verticalLayout_14->addWidget(button_subject_literature);
+        verticalLayout_19->addWidget(button_subject_history);
 
-        label_15 = new QLabel(literature_2);
-        label_15->setObjectName("label_15");
-        label_15->setStyleSheet(QString::fromUtf8("font: italic bold 14pt \"Segoe UI\";\n"
+        label_20 = new QLabel(history);
+        label_20->setObjectName("label_20");
+        label_20->setStyleSheet(QString::fromUtf8("font: italic bold 14pt \"Segoe UI\";\n"
 "color: rgb(170, 85, 127);"));
 
-        verticalLayout_14->addWidget(label_15, 0, Qt::AlignHCenter);
+        verticalLayout_19->addWidget(label_20, 0, Qt::AlignHCenter);
 
 
-        gridLayout_2->addWidget(literature_2, 1, 2, 1, 1);
+        horizontalLayout_4->addWidget(history);
+
+
+        verticalLayout_8->addWidget(line2, 0, Qt::AlignHCenter);
 
 
         verticalLayout_4->addWidget(frame);
@@ -486,39 +557,36 @@ public:
         stackedWidget->addWidget(main);
         chat_w = new QWidget();
         chat_w->setObjectName("chat_w");
+        chat_w->setMinimumSize(QSize(460, 600));
         verticalLayout_6 = new QVBoxLayout(chat_w);
         verticalLayout_6->setObjectName("verticalLayout_6");
-        verticalSpacer_3 = new QSpacerItem(20, 334, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
-
-        verticalLayout_6->addItem(verticalSpacer_3);
-
         chat = new QWebEngineView(chat_w);
         chat->setObjectName("chat");
         sizePolicy2.setHeightForWidth(chat->sizePolicy().hasHeightForWidth());
         chat->setSizePolicy(sizePolicy2);
-        chat->setMinimumSize(QSize(450, 550));
+        chat->setMinimumSize(QSize(460, 600));
         chat->setMaximumSize(QSize(450, 550));
 
-        verticalLayout_6->addWidget(chat, 0, Qt::AlignHCenter);
+        verticalLayout_6->addWidget(chat, 0, Qt::AlignHCenter|Qt::AlignVCenter);
 
         chat_loading = new QLabel(chat_w);
         chat_loading->setObjectName("chat_loading");
         chat_loading->setStyleSheet(QString::fromUtf8("font: italic bold 14pt \"Segoe UI\";\n"
 "color: rgb(170, 85, 127);"));
 
-        verticalLayout_6->addWidget(chat_loading, 0, Qt::AlignHCenter);
-
-        verticalSpacer_4 = new QSpacerItem(20, 334, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
-
-        verticalLayout_6->addItem(verticalSpacer_4);
+        verticalLayout_6->addWidget(chat_loading, 0, Qt::AlignHCenter|Qt::AlignVCenter);
 
         stackedWidget->addWidget(chat_w);
 
-        horizontalLayout->addWidget(stackedWidget, 0, Qt::AlignHCenter);
+        horizontalLayout->addWidget(stackedWidget);
 
         horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
 
         horizontalLayout->addItem(horizontalSpacer_2);
+
+        horizontalSpacer_6 = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer_6);
 
         MainWindow->setCentralWidget(centralwidget);
 
@@ -555,12 +623,14 @@ public:
         label_13->setText(QCoreApplication::translate("MainWindow", "Physics", nullptr));
         button_subject_chemistry->setText(QString());
         label_14->setText(QCoreApplication::translate("MainWindow", "Chemistry", nullptr));
+        button_subject_translator->setText(QString());
+        label_15->setText(QCoreApplication::translate("MainWindow", "Buddy translate", nullptr));
         button_subject_biology->setText(QString());
         label_12->setText(QCoreApplication::translate("MainWindow", "Biology", nullptr));
         button_subject_geography->setText(QString());
-        label_17->setText(QCoreApplication::translate("MainWindow", "Geography", nullptr));
-        button_subject_literature->setText(QString());
-        label_15->setText(QCoreApplication::translate("MainWindow", "Literature", nullptr));
+        label_19->setText(QCoreApplication::translate("MainWindow", "Geography", nullptr));
+        button_subject_history->setText(QString());
+        label_20->setText(QCoreApplication::translate("MainWindow", "History", nullptr));
         chat_loading->setText(QCoreApplication::translate("MainWindow", "Please wait, bot is loading!", nullptr));
     } // retranslateUi
 

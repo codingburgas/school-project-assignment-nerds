@@ -1,6 +1,13 @@
 <RCC>
     <qresource prefix="/images">
         <file>images/logo.png</file>
-        <file>images/subject</file>
+        <file>images/bg.png</file>
+        <file>images/biology.png</file>
+        <file>images/geography.png</file>
+        <file>images/history.png</file>
+        <file>images/mathematics.png</file>
+        <file>images/physics.png</file>
+        <file>images/translate.png</file>
+        <file>images/Chemistry.png</file>
     </qresource>
 </RCC>

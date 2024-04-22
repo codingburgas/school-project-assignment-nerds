@@ -184,7 +184,7 @@ build MainWindow_autogen\timestamp MainWindow_autogen\mocs_compilation.cpp | ${c
 #############################################
 # Custom command for MainWindow_autogen\EWIEGA46WW\qrc_images.cpp
 
-build MainWindow_autogen\EWIEGA46WW\qrc_images.cpp | ${cmake_ninja_workdir}MainWindow_autogen\EWIEGA46WW\qrc_images.cpp: CUSTOM_COMMAND D$:\Документы\IT\projects\school-project-assignment-nerds\app\images.qrc CMakeFiles\MainWindow_autogen.dir\AutoRcc_images_EWIEGA46WW_Info.json D$:\Документы\IT\projects\school-project-assignment-nerds\app\images\logo.png D$:\Документы\IT\projects\school-project-assignment-nerds\app\images\subject D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\.\bin\rcc.exe || MainWindow_autogen MainWindow_autogen_timestamp_deps
+build MainWindow_autogen\EWIEGA46WW\qrc_images.cpp | ${cmake_ninja_workdir}MainWindow_autogen\EWIEGA46WW\qrc_images.cpp: CUSTOM_COMMAND D$:\Документы\IT\projects\school-project-assignment-nerds\app\images.qrc CMakeFiles\MainWindow_autogen.dir\AutoRcc_images_EWIEGA46WW_Info.json D$:\Документы\IT\projects\school-project-assignment-nerds\app\images\history.png D$:\Документы\IT\projects\school-project-assignment-nerds\app\images\translate.png D$:\Документы\IT\projects\school-project-assignment-nerds\app\images\biology.png D$:\Документы\IT\projects\school-project-assignment-nerds\app\images\logo.png D$:\Документы\IT\projects\school-project-assignment-nerds\app\images\geography.png D$:\Документы\IT\projects\school-project-assignment-nerds\app\images\mathematics.png D$:\Документы\IT\projects\school-project-assignment-nerds\app\images\Chemistry.png D$:\Документы\IT\projects\school-project-assignment-nerds\app\images\physics.png D$:\Документы\IT\projects\school-project-assignment-nerds\app\images\bg.png D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\.\bin\rcc.exe || MainWindow_autogen MainWindow_autogen_timestamp_deps
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Документы\IT\projects\school-project-assignment-nerds\app\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_autorcc D:/Документы/IT/projects/school-project-assignment-nerds/app/out/build/x64-Debug/CMakeFiles/MainWindow_autogen.dir/AutoRcc_images_EWIEGA46WW_Info.json Debug"
   DESC = Automatic RCC for images.qrc
   restat = 1
@@ -193,7 +193,7 @@ build MainWindow_autogen\EWIEGA46WW\qrc_images.cpp | ${cmake_ninja_workdir}MainW
 #############################################
 # Phony custom command for CMakeFiles\MainWindow_autogen_timestamp_deps
 
-build CMakeFiles\MainWindow_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles\MainWindow_autogen_timestamp_deps: phony D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\.\bin\moc.exe D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\lib\Qt6WebEngineWidgetsd.lib D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\.\bin\uic.exe D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\lib\Qt6Widgetsd.lib D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\lib\Qt6Cored.lib
+build CMakeFiles\MainWindow_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles\MainWindow_autogen_timestamp_deps: phony D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\.\bin\moc.exe D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\lib\Qt6WebEngineWidgetsd.lib D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\lib\Qt6Widgetsd.lib D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\.\bin\uic.exe D$:\Документы\IT\projects\school-project-assignment-nerds\Qt\msvc2019_64\lib\Qt6Cored.lib
 
 
 #############################################
@@ -232,7 +232,6 @@ build platforms\CMakeFiles\Widgetsd.dir\Widgetsd_autogen\mocs_compilation.cpp.ob
 # Link the static library platforms\Widgetsd.lib
 
 build platforms\Widgetsd.lib: C_STATIC_LIBRARY_LINKER__Widgetsd_Debug platforms\CMakeFiles\Widgetsd.dir\Widgetsd_autogen\mocs_compilation.cpp.obj || platforms\Widgetsd_autogen platforms\Widgetsd_autogen_timestamp_deps
-  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64
   OBJECT_DIR = platforms\CMakeFiles\Widgetsd.dir
   POST_BUILD = cd .
@@ -267,7 +266,6 @@ build platforms\CMakeFiles\Cored.dir\Cored_autogen\mocs_compilation.cpp.obj: CXX
 # Link the static library platforms\Cored.lib
 
 build platforms\Cored.lib: C_STATIC_LIBRARY_LINKER__Cored_Debug platforms\CMakeFiles\Cored.dir\Cored_autogen\mocs_compilation.cpp.obj || platforms\Cored_autogen platforms\Cored_autogen_timestamp_deps
-  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64
   OBJECT_DIR = platforms\CMakeFiles\Cored.dir
   POST_BUILD = cd .
@@ -302,7 +300,6 @@ build platforms\CMakeFiles\WebEngineWidgetsd.dir\WebEngineWidgetsd_autogen\mocs_
 # Link the static library platforms\WebEngineWidgetsd.lib
 
 build platforms\WebEngineWidgetsd.lib: C_STATIC_LIBRARY_LINKER__WebEngineWidgetsd_Debug platforms\CMakeFiles\WebEngineWidgetsd.dir\WebEngineWidgetsd_autogen\mocs_compilation.cpp.obj || platforms\WebEngineWidgetsd_autogen platforms\WebEngineWidgetsd_autogen_timestamp_deps
-  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64
   OBJECT_DIR = platforms\CMakeFiles\WebEngineWidgetsd.dir
   POST_BUILD = cd .
@@ -337,7 +334,6 @@ build platforms\CMakeFiles\Guid.dir\Guid_autogen\mocs_compilation.cpp.obj: CXX_C
 # Link the static library platforms\Guid.lib
 
 build platforms\Guid.lib: C_STATIC_LIBRARY_LINKER__Guid_Debug platforms\CMakeFiles\Guid.dir\Guid_autogen\mocs_compilation.cpp.obj || platforms\Guid_autogen platforms\Guid_autogen_timestamp_deps
-  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64
   OBJECT_DIR = platforms\CMakeFiles\Guid.dir
   POST_BUILD = cd .
