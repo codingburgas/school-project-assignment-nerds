@@ -1,8 +1,8 @@
-# Install script for directory: D:/Документы/IT/projects/school-project-assignment-nerds/app/platforms
+# Install script for directory: D:/Документы/IT/projects/test/school-project-assignment-nerds/app/platforms
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "D:/Документы/IT/projects/school-project-assignment-nerds/app/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "D:/Документы/IT/projects/test/school-project-assignment-nerds/app/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

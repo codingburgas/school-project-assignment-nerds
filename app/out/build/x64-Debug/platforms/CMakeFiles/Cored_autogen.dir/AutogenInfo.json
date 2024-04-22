@@ -1,20 +1,20 @@
 {
-	"BUILD_DIR" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/school-project-assignment-nerds/app/out/build/x64-Debug/platforms/Cored_autogen",
-	"CMAKE_BINARY_DIR" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/school-project-assignment-nerds/app/out/build/x64-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/school-project-assignment-nerds/app/out/build/x64-Debug/platforms",
-	"CMAKE_CURRENT_SOURCE_DIR" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/school-project-assignment-nerds/app/platforms",
+	"BUILD_DIR" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/test/school-project-assignment-nerds/app/out/build/x64-Debug/platforms/Cored_autogen",
+	"CMAKE_BINARY_DIR" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/test/school-project-assignment-nerds/app/out/build/x64-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/test/school-project-assignment-nerds/app/out/build/x64-Debug/platforms",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/test/school-project-assignment-nerds/app/platforms",
 	"CMAKE_EXECUTABLE" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/school-project-assignment-nerds/app/platforms/CMakeLists.txt"
+		"D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/test/school-project-assignment-nerds/app/platforms/CMakeLists.txt"
 	],
-	"CMAKE_SOURCE_DIR" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/school-project-assignment-nerds/app",
-	"DEP_FILE" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/school-project-assignment-nerds/app/out/build/x64-Debug/platforms/Cored_autogen/deps",
+	"CMAKE_SOURCE_DIR" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/test/school-project-assignment-nerds/app",
+	"DEP_FILE" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/test/school-project-assignment-nerds/app/out/build/x64-Debug/platforms/Cored_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "Cored_autogen/timestamp",
 	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/school-project-assignment-nerds/app/out/build/x64-Debug/platforms/Cored_autogen/include",
-	"MOC_COMPILATION_FILE" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/school-project-assignment-nerds/app/out/build/x64-Debug/platforms/Cored_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/test/school-project-assignment-nerds/app/out/build/x64-Debug/platforms/Cored_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/test/school-project-assignment-nerds/app/out/build/x64-Debug/platforms/Cored_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "WIN32" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -41,12 +41,12 @@
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/school-project-assignment-nerds/app/out/build/x64-Debug/platforms/CMakeFiles/Cored_autogen.dir/ParseCache.txt",
-	"QT_MOC_EXECUTABLE" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/school-project-assignment-nerds/Qt/msvc2019_64/./bin/moc.exe",
-	"QT_UIC_EXECUTABLE" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/school-project-assignment-nerds/Qt/msvc2019_64/./bin/uic.exe",
+	"PARSE_CACHE_FILE" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/test/school-project-assignment-nerds/app/out/build/x64-Debug/platforms/CMakeFiles/Cored_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/test/school-project-assignment-nerds/Qt/msvc2019_64/./bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/test/school-project-assignment-nerds/Qt/msvc2019_64/./bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 7,
-	"SETTINGS_FILE" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/school-project-assignment-nerds/app/out/build/x64-Debug/platforms/CMakeFiles/Cored_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "D:/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/IT/projects/test/school-project-assignment-nerds/app/out/build/x64-Debug/platforms/CMakeFiles/Cored_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : [],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

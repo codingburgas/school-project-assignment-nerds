@@ -33,8 +33,8 @@ endif()
 # These are internal implementation details. They may be removed at any time.
 set(__QT_DEPLOY_SYSTEM_NAME "Windows")
 set(__QT_DEPLOY_IS_SHARED_LIBS_BUILD "ON")
-set(__QT_DEPLOY_TOOL "D:/Документы/IT/projects/school-project-assignment-nerds/Qt/msvc2019_64/bin/windeployqt.exe")
-set(__QT_DEPLOY_IMPL_DIR "D:/Документы/IT/projects/school-project-assignment-nerds/app/out/build/x64-Debug/.qt")
+set(__QT_DEPLOY_TOOL "D:/Документы/IT/projects/test/school-project-assignment-nerds/Qt/msvc2019_64/bin/windeployqt.exe")
+set(__QT_DEPLOY_IMPL_DIR "D:/Документы/IT/projects/test/school-project-assignment-nerds/app/out/build/x64-Debug/.qt")
 set(__QT_DEPLOY_VERBOSE "")
 set(__QT_CMAKE_EXPORT_NAMESPACE "Qt6")
 set(__QT_DEPLOY_GENERATOR_IS_MULTI_CONFIG "0")
@@ -42,13 +42,13 @@ set(__QT_DEPLOY_ACTIVE_CONFIG "Debug")
 set(__QT_NO_CREATE_VERSIONLESS_FUNCTIONS "")
 set(__QT_DEFAULT_MAJOR_VERSION "6")
 set(__QT_DEPLOY_QT_ADDITIONAL_PACKAGES_PREFIX_PATH "")
-set(__QT_DEPLOY_QT_INSTALL_PREFIX "D:/Документы/IT/projects/school-project-assignment-nerds/Qt/msvc2019_64")
+set(__QT_DEPLOY_QT_INSTALL_PREFIX "D:/Документы/IT/projects/test/school-project-assignment-nerds/Qt/msvc2019_64")
 set(__QT_DEPLOY_QT_INSTALL_BINS "bin")
 set(__QT_DEPLOY_QT_INSTALL_DATA ".")
 set(__QT_DEPLOY_QT_INSTALL_LIBEXECS "./bin")
 set(__QT_DEPLOY_QT_INSTALL_PLUGINS "./plugins")
 set(__QT_DEPLOY_QT_INSTALL_TRANSLATIONS "./translations")
-set(__QT_DEPLOY_TARGET_QT_PATHS_PATH "D:/Документы/IT/projects/school-project-assignment-nerds/Qt/msvc2019_64/bin/qtpaths.exe")
+set(__QT_DEPLOY_TARGET_QT_PATHS_PATH "D:/Документы/IT/projects/test/school-project-assignment-nerds/Qt/msvc2019_64/bin/qtpaths.exe")
 set(__QT_DEPLOY_PLUGINS "")
 set(__QT_DEPLOY_MUST_ADJUST_PLUGINS_RPATH "")
 set(__QT_DEPLOY_USE_PATCHELF "")
@@ -58,10 +58,10 @@ set(__QT_DEPLOY_QT_DEBUG_POSTFIX "d")
 
 # Define the CMake commands to be made available during deployment.
 set(__qt_deploy_support_files
-    "D:/Документы/IT/projects/school-project-assignment-nerds/app/out/build/x64-Debug/.qt/QtDeployTargets.cmake"
-    "D:/Документы/IT/projects/school-project-assignment-nerds/Qt/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
-    "D:/Документы/IT/projects/school-project-assignment-nerds/Qt/msvc2019_64/lib/cmake/Qt6Qml/Qt6QmlDeploySupport.cmake"
-    "D:/Документы/IT/projects/school-project-assignment-nerds/Qt/msvc2019_64/lib/cmake/Qt6WebEngineCore/Qt6WebEngineCoreDeploySupport.cmake"
+    "D:/Документы/IT/projects/test/school-project-assignment-nerds/app/out/build/x64-Debug/.qt/QtDeployTargets.cmake"
+    "D:/Документы/IT/projects/test/school-project-assignment-nerds/Qt/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
+    "D:/Документы/IT/projects/test/school-project-assignment-nerds/Qt/msvc2019_64/lib/cmake/Qt6Qml/Qt6QmlDeploySupport.cmake"
+    "D:/Документы/IT/projects/test/school-project-assignment-nerds/Qt/msvc2019_64/lib/cmake/Qt6WebEngineCore/Qt6WebEngineCoreDeploySupport.cmake"
 )
 foreach(__qt_deploy_support_file IN LISTS __qt_deploy_support_files)
     include("${__qt_deploy_support_file}")
