@@ -115,7 +115,7 @@ color: rgb(170, 85, 127);</string>
        <string notr="true">background-color: rgba(43, 43, 43, 175);</string>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="login">
        <property name="sizePolicy">
@@ -324,6 +324,9 @@ background-color: rgba(43, 43, 43,0);</string>
         </item>
         <item>
          <widget class="QWidget" name="widget_2" native="true">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+          </property>
           <layout class="QVBoxLayout" name="verticalLayout_2">
            <item alignment="Qt::AlignHCenter|Qt::AlignTop">
             <widget class="QLineEdit" name="email_signup">
