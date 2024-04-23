@@ -40,5 +40,3 @@ Access simple explanations whenever you need them.
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/640px-Git-logo.svg.png" width="20">  Git
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg/512px-Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg.png?20210821050414" width="20">  Power point
 - <img src="https://findicons.com/files/icons/2795/office_2013_hd/2000/word.png" width="20">  Word
-- <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" width="20">  Figma
-- <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Raylib_logo.png" width="20">  Raylib
